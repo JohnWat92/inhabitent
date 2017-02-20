@@ -3,22 +3,29 @@
 --------------------------------------------------------------*/
 
 /* Front page */
-#content{
+.site-content{
 	padding-top:50px;
 	display:flex;
 	justify-content: space-between;
 }
-#primary{
+.content-area{
 	width:70%;
 	padding-left:6rem;
 }
-#secondary{
+.widget-area{
 	border-left:solid 1px lightgrey;
 	width:30%;
 	padding:3rem;
 }
+
+.site-content-fullwidth{
+	width:100%;
+}
 .entry-header{
 	position:relative;
+	img{
+
+	}
 	.entry-title{
 		position:absolute;
 		padding-left: 1rem;
