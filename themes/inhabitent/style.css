@@ -654,8 +654,15 @@ h3 {
 
 .footerCopyRight {
   text-align: center;
-  color: white;
-  text-transform: uppercase; }
+  color: white; }
+  .footerCopyRight p {
+    margin: 0;
+    text-transform: uppercase; }
+
+.companyLogo {
+  margin-top: 3rem; }
+  .companyLogo img {
+    width: 70%; }
 
 i {
   width: 25px; }

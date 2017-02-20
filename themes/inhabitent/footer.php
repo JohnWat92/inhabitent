@@ -26,8 +26,8 @@
 							<p> Sunday: Closed </p>
 						</div>
 						<div class = companyLogo>
-							<p> WOOO IM A LOGO </p>
 							<!--<img src= "./images/logos/inhabitent-logo-text.svg">-->
+							<img src="http://tent.academy.red/wp-content/themes/inhabitent/images/inhabitent-logo-text.svg" alt="Inhabitent logo">
 								<!--<img src= "./inhabitent-logo-text.svg">-->
 						</div>
 					</div>
