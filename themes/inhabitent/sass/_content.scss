@@ -4,6 +4,7 @@
 
 /* Posts and pages */
 
+
 .sticky {
 	display: block;
 }
@@ -11,6 +12,7 @@
 .hentry {
 	margin: 0 0 $base__space-unit;
 }
+
 
 .updated:not(.published){
 	display: none;
@@ -25,12 +27,15 @@
 .entry-content,
 .entry-summary {
 	margin: $base__space-unit 0 0;
+	margin-top:10rem;
 }
 
 .page-links {
 	clear: both;
 	margin: 0 0 $base__space-unit;
 }
+
+
 
 /* Asides */
 
@@ -47,3 +52,4 @@
 .bypostauthor {
 	display: block;
 }
+

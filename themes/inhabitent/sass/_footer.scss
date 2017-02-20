@@ -1,0 +1,27 @@
+.informationBlock{
+	display:flex;
+	justify-content: space-around;
+	color:white;
+}
+.site-info{
+	background: url("../../images/dark-wood.png");
+    a{
+    color:white;
+    text-decoration: none;
+}
+}
+
+h3{
+	text-transform: uppercase;
+	color:#d99054;
+}
+
+.footerCopyRight{
+    text-align: center;
+    color:white;
+    text-transform: uppercase;
+}
+i{
+    width:25px;
+
+}

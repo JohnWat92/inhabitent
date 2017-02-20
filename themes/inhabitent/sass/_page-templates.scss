@@ -3,3 +3,58 @@
 --------------------------------------------------------------*/
 
 /* Front page */
+#content{
+	padding-top:50px;
+	display:flex;
+	justify-content: space-between;
+}
+#primary{
+	width:70%;
+	padding-left:6rem;
+}
+#secondary{
+	border-left:solid 1px lightgrey;
+	width:30%;
+	padding:3rem;
+}
+.entry-header{
+	position:relative;
+	.entry-title{
+		position:absolute;
+		padding-left: 1rem;
+		font-size:2rem;
+		text-transform:uppercase;
+    	top: 30px;
+		background-color: #248a83;
+		width: 30rem;
+		color:white;
+		padding: .6rem;
+		padding-left: 1rem;
+		a{
+			color:white;
+			text-decoration:none;
+			&:hover{
+				color:$color__background-ins;
+			}
+		}
+	}
+	.entry-meta{
+		position:absolute;
+		bottom: 7px;
+		color: white;
+		right: 205px;
+		text-transform:uppercase;
+		background-color: #248A83;
+		padding: .3rem 1.5rem;
+		color:white;
+		a{
+			text-decoration:none;
+			&:hover{
+				color:$color__background-ins;
+			}
+			&:visited{
+				color:white;
+			}
+		}
+	}
+}

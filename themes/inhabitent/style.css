@@ -353,10 +353,12 @@ hr {
   margin-bottom: 1.5rem; }
 
 ul, ol {
-  margin: 0 0 1.5rem 3rem; }
+  padding: 0; }
+  ul a, ol a {
+    text-decoration: none; }
 
 ul {
-  list-style: disc; }
+  list-style: none; }
 
 ol {
   list-style: decimal; }
@@ -451,9 +453,9 @@ textarea {
 --------------------------------------------------------------*/
 /* Links */
 a {
-  color: royalblue; }
+  color: #248A83; }
   a:visited {
-    color: purple; }
+    color: #248A83; }
   a:hover, a:focus, a:active {
     color: midnightblue; }
   a:focus {
@@ -463,10 +465,7 @@ a {
 
 /* Menus */
 .main-navigation {
-  clear: both;
-  display: block;
-  float: left;
-  width: 100%; }
+  clear: both; }
   .main-navigation ul {
     display: none;
     list-style: none;
@@ -617,7 +616,8 @@ a {
 .page-content,
 .entry-content,
 .entry-summary {
-  margin: 1.5rem 0 0; }
+  margin: 1.5rem 0 0;
+  margin-top: 10rem; }
 
 .page-links {
   clear: both;
@@ -634,6 +634,55 @@ a {
 
 .bypostauthor {
   display: block; }
+
+.informationBlock {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  color: white; }
+
+.site-info {
+  background: url("../../images/dark-wood.png"); }
+  .site-info a {
+    color: white;
+    text-decoration: none; }
+
+h3 {
+  text-transform: uppercase;
+  color: #d99054; }
+
+.footerCopyRight {
+  text-align: center;
+  color: white;
+  text-transform: uppercase; }
+
+i {
+  width: 25px; }
+
+.navWrap {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: justify;
+      justify-content: space-between;
+  position: fixed;
+  height: 50px;
+  width: 100%;
+  z-index: 1;
+  background: rgba(255, 255, 255, 0.8);
+  border-bottom: solid 1px lightgrey; }
+  .navWrap .tentLogo {
+    width: 50px;
+    height: 33px;
+    margin-left: 7rem;
+    margin-top: .5rem;
+    background-image: url(../../images/logos/inhabitent-logo-tent.svg);
+    background-size: 100%;
+    cursor: pointer; }
+  .navWrap #site-navigation {
+    height: 50px; }
+  .navWrap #primary-menu li {
+    padding: 1rem; }
 
 /*--------------------------------------------------------------
 # Media
@@ -699,3 +748,52 @@ object {
 # Page Templates
 --------------------------------------------------------------*/
 /* Front page */
+#content {
+  padding-top: 50px;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: justify;
+      justify-content: space-between; }
+
+#primary {
+  width: 70%;
+  padding-left: 6rem; }
+
+#secondary {
+  border-left: solid 1px lightgrey;
+  width: 30%;
+  padding: 3rem; }
+
+.entry-header {
+  position: relative; }
+  .entry-header .entry-title {
+    position: absolute;
+    padding-left: 1rem;
+    font-size: 2rem;
+    text-transform: uppercase;
+    top: 30px;
+    background-color: #248a83;
+    width: 30rem;
+    color: white;
+    padding: .6rem;
+    padding-left: 1rem; }
+    .entry-header .entry-title a {
+      color: white;
+      text-decoration: none; }
+      .entry-header .entry-title a:hover {
+        color: #fff9c0; }
+  .entry-header .entry-meta {
+    position: absolute;
+    bottom: 7px;
+    color: white;
+    right: 205px;
+    text-transform: uppercase;
+    background-color: #248A83;
+    padding: .3rem 1.5rem;
+    color: white; }
+    .entry-header .entry-meta a {
+      text-decoration: none; }
+      .entry-header .entry-meta a:hover {
+        color: #fff9c0; }
+      .entry-header .entry-meta a:visited {
+        color: white; }
