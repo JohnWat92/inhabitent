@@ -21,13 +21,13 @@
 						</div>
 						<div class = businessHours>
 							<h3> business hours </h3>
-							<p>Monday-Friday: 9am to 5pm</p>
-							<p>Saturday: 10am to 2pm </p>
-							<p> Sunday: Closed </p>
+							<p><b>Monday-Friday:</b> 9am to 5pm</p>
+							<p><b>Saturday:</b> 10am to 2pm </p>
+							<p><b>Sunday:</b> Closed </p>
 						</div>
 						<div class = companyLogo>
 							<!--<img src= "./images/logos/inhabitent-logo-text.svg">-->
-							<img src="http://tent.academy.red/wp-content/themes/inhabitent/images/inhabitent-logo-text.svg" alt="Inhabitent logo">
+							<img src="<?php echo get_template_directory_uri() ?>/images/logos/inhabitent-logo-text.svg" alt="Inhabitent Logo">
 								<!--<img src= "./inhabitent-logo-text.svg">-->
 						</div>
 					</div>

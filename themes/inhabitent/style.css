@@ -635,6 +635,19 @@ a {
 .bypostauthor {
   display: block; }
 
+.entry-header-custom {
+  background: url(../../images/about-hero.jpg) no-repeat center bottom;
+  background-size: cover,cover;
+  height: 800px;
+  position: relative; }
+
+.entry-content-custom {
+  text-align: center;
+  width: 800px; }
+
+.entry-title-custom {
+  position: absolute; }
+
 .informationBlock {
   display: -ms-flexbox;
   display: flex;
@@ -666,6 +679,10 @@ h3 {
 
 i {
   width: 25px; }
+
+.entry-footer {
+  text-transform: uppercase;
+  margin-right: 30px; }
 
 .navWrap {
   display: -ms-flexbox;
@@ -776,6 +793,8 @@ object {
 
 .entry-header {
   position: relative; }
+  .entry-header img {
+    width: 930px; }
   .entry-header .entry-title {
     position: absolute;
     padding-left: 1rem;
@@ -796,7 +815,7 @@ object {
     position: absolute;
     bottom: 7px;
     color: white;
-    right: 205px;
+    right: 64px;
     text-transform: uppercase;
     background-color: #248A83;
     padding: .3rem 1.5rem;

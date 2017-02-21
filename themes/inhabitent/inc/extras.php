@@ -20,3 +20,17 @@ function red_starter_body_classes( $classes ) {
 	return $classes;
 }
 add_filter( 'body_class', 'red_starter_body_classes' );
+
+function my_login_logo() { ?>
+    <style type="text/css">
+        #login h1 a, .login h1 a {
+            background: url(<?php echo get_stylesheet_directory_uri(); ?>/images/logos/inhabitent-logo-text-dark.svg);
+	    background-size: cover !important;
+     margin-right: 50px !important; 
+    width: 340px !important;
+    height: 60px !important;
+			/*echo get_template_directory_uri() ?>/images/logos/inhabitent-logo-text.svg" alt="Inhabitent Logo">*/
+        }
+    </style>
+<?php }
+add_action( 'login_enqueue_scripts', 'my_login_logo' );
