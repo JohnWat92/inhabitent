@@ -11,6 +11,7 @@
  * @param array $classes Classes for the body element.
  * @return array
  */
+
 function red_starter_body_classes( $classes ) {
 	// Adds a class of group-blog to blogs with more than 1 published author.
 	if ( is_multi_author() ) {
@@ -47,12 +48,14 @@ function inhabitent_login_logo() {
     </style>';
 }
 add_action('login_head','inhabitent_login_logo');
+
 /**
 *customize the url the logo points to WP LOGIN PAGE
 *
 *@param string $url the URL the logo image link points to.$_COOKIE
 *@return simplexml_load_string
 */
+
 function inhabitent_login_logo_url($url){
     return home_url();
 }

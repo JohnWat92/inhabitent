@@ -794,11 +794,11 @@ object {
 .site-content-fullwidth {
   width: 100%; }
 
-.entry-header {
+.post .entry-header {
   position: relative; }
-  .entry-header img {
+  .post .entry-header img {
     width: 930px; }
-  .entry-header .entry-title {
+  .post .entry-header .entry-title {
     position: absolute;
     padding-left: 1rem;
     font-size: 2rem;
@@ -809,12 +809,12 @@ object {
     color: white;
     padding: .6rem;
     padding-left: 1rem; }
-    .entry-header .entry-title a {
+    .post .entry-header .entry-title a {
       color: white;
       text-decoration: none; }
-      .entry-header .entry-title a:hover {
+      .post .entry-header .entry-title a:hover {
         color: #fff9c0; }
-  .entry-header .entry-meta {
+  .post .entry-header .entry-meta {
     position: absolute;
     bottom: 7px;
     color: white;
@@ -823,9 +823,13 @@ object {
     background-color: #248A83;
     padding: .3rem 1.5rem;
     color: white; }
-    .entry-header .entry-meta a {
+    .post .entry-header .entry-meta a {
       text-decoration: none; }
-      .entry-header .entry-meta a:hover {
+      .post .entry-header .entry-meta a:hover {
         color: #fff9c0; }
-      .entry-header .entry-meta a:visited {
+      .post .entry-header .entry-meta a:visited {
         color: white; }
+
+.journal-3 {
+  display: -ms-inline-flexbox;
+  display: inline-flex; }

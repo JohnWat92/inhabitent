@@ -8,7 +8,7 @@
 	display:flex;
 	justify-content: space-between;
 }
-.content-area{
+ .content-area{
 	width:70%;
 	padding-left:6rem;
 }
@@ -21,7 +21,7 @@
 .site-content-fullwidth{
 	width:100%;
 }
-.entry-header{
+.post .entry-header{
 	position:relative;
 	img{
 		width:930px;
@@ -64,4 +64,8 @@
 			}
 		}
 	}
+}
+
+.journal-3{
+	display:inline-flex;
 }
