@@ -644,19 +644,6 @@ a {
 .bypostauthor {
   display: block; }
 
-.entry-header-custom {
-  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0.4) 100%), url(../../images/about-hero.jpg) no-repeat center bottom;
-  background-size: cover,cover;
-  height: 800px;
-  position: relative; }
-
-.entry-content-custom {
-  text-align: center;
-  width: 800px; }
-
-.entry-title-custom {
-  position: absolute; }
-
 .home-hero {
   background: linear-gradient(to bottom, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0.4) 100%), url(../../images/home-hero.jpg) no-repeat;
   background-size: cover, cover;
@@ -754,24 +741,10 @@ i {
     font-family: Novocento, sans-serif; }
 
 .home .navWrap {
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-pack: justify;
-      justify-content: space-between;
-  position: fixed;
-  height: 50px;
-  width: 100%;
-  z-index: 1;
   background: rgba(255, 255, 255, 0);
   border-bottom: solid 0px lightgrey; }
   .home .navWrap .tentLogo {
-    width: 50px;
-    height: 33px;
-    margin-left: 7rem;
-    margin-top: .5rem;
-    background-image: url(../../images/logos/inhabitent-logo-tent-white.svg);
-    background-size: 100%;
-    cursor: pointer; }
+    background-image: url(../../images/logos/inhabitent-logo-tent-white.svg); }
   .home .navWrap #site-navigation {
     height: 50px; }
   .home .navWrap #primary-menu li {
@@ -779,6 +752,23 @@ i {
     .home .navWrap #primary-menu li a {
       color: White;
       text-transform: uppercase; }
+
+.site-content {
+  padding-top: 50px;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: justify;
+      justify-content: space-between; }
+
+.page-template-about .site-content {
+  padding-top: 0px; }
+
+.home .site-content {
+  padding-top: 0px;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: justify;
+      justify-content: space-between; }
 
 /*--------------------------------------------------------------
 # Media
@@ -844,20 +834,6 @@ object {
 # Page Templates
 --------------------------------------------------------------*/
 /* Front page */
-.site-content {
-  padding-top: 50px;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-pack: justify;
-      justify-content: space-between; }
-
-.home .site-content {
-  padding-top: 0px;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-pack: justify;
-      justify-content: space-between; }
-
 .blog .content-area {
   width: 70%;
   padding-right: 3rem;
@@ -869,9 +845,6 @@ object {
   border-left: solid 1px lightgrey;
   width: 30%;
   padding: 3rem; }
-
-.site-content-fullwidth {
-  width: 100%; }
 
 .post .entry-header {
   position: relative; }

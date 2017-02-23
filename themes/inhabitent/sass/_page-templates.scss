@@ -3,16 +3,7 @@
 --------------------------------------------------------------*/
 
 /* Front page */
-.site-content{
-	padding-top:50px;
-	display:flex;
-	justify-content: space-between;
-}
-.home .site-content{
-	padding-top:0px;
-	display:flex;
-	justify-content: space-between;
-}
+
 .blog .content-area{
 	width:70%;
 	padding-right:3rem;
@@ -27,9 +18,9 @@
 	padding:3rem;
 }
 
-.site-content-fullwidth{
-	width:100%;
-}
+// .site-content-fullwidth{
+// 	width:100%;
+// }
 .post .entry-header{
 	position:relative;
 	img{

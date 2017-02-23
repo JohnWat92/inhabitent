@@ -12,6 +12,25 @@ get_header(); ?>
 			<div class="home-hero">
 				<img src="<?php echo get_template_directory_uri() ?>/images/logos/inhabitent-logo-full.svg" alt="Inhabitent Logo">
 			</div>
+	<div class = "shop-container">
+		<?php
+			$terms = get_terms( array(
+    			'taxonomy' => 'product_type',
+   				 'orderby' => 'name',) );
+			foreach ($terms as $term):
+			$url = get_term_link ($term->slug, 'product_type');
+		?>
+		
+		<div class = "shop-stuff-icons">
+			<div class = "product-icon-image">
+				<img src="<?php echo get_template_directory_uri();?>/images/product-type-icons/<?php echo $term->slug; ?>.svg" alt="">
+			</div>
+			<p><?php echo $term->description;?></p>
+			<a href='<?php echo $url?>' class='button-link'><?php echo $term->name; ?></a>
+		</div>
+	<?php endforeach; ?>
+	</div>
+
 
 			<?php while ( have_posts() ) : the_post(); ?>
 				<?php get_template_part( 'template-parts/content', 'page' ); ?>
@@ -35,7 +54,7 @@ get_header(); ?>
         				<?php the_title(); ?>   
 						</div>
         <!--<?php the_attachment_link( $post->ID, false ); ?>-->
-    <!--</div>-->
+    </div>
 <?php
 endforeach; 
 wp_reset_postdata();
