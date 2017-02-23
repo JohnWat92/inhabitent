@@ -680,9 +680,16 @@ a {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   -ms-flex-pack: justify;
-      justify-content: space-between; }
+      justify-content: space-between;
+  margin-left: auto;
+  margin-right: auto;
+  width: 1120px; }
   .allproducts .shop-product {
-    width: 25%; }
+    -ms-flex: 0 1 23%;
+        flex: 0 1 23%; }
+
+.post-type-archive .page-title {
+  text-align: center; }
 
 .informationBlock {
   display: -ms-flexbox;
@@ -912,3 +919,6 @@ object {
   background-size: cover,cover;
   height: 800px;
   position: relative; }
+
+.container {
+  width: 100vw; }

@@ -23,7 +23,7 @@ get_header(); ?>
                         the_archive_description( '<div class="taxonomy-description">', '</div>' );
                 ?>
             </header>
-            
+            <div class = "container">
             <ul class="shop-flexbox">
                 <section class="allproducts">
                 <?php /* Start the Loop */ ?>
@@ -45,6 +45,7 @@ get_header(); ?>
             <?php get_template_part( 'template-parts/content', 'none' ); ?>
             <?php endif; ?>
                 </section>
+			</div>
         </main><!-- #main -->
     </div><!-- #primary -->
 <?php get_footer(); ?>

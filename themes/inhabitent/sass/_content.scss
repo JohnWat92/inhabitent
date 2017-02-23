@@ -90,12 +90,25 @@
 			width: 275px;
 	}
 }
+.shop-flexbox{
+}
 .allproducts{
 	display:flex;
 	flex-wrap:wrap;
 	justify-content: space-between;
+	margin-left: auto;
+    margin-right: auto;
+    width: 1120px;
+	
 	.shop-product{
-		width:25%;
+		// width:25%;
+		flex: 0 1 23%;
+	}
+}
+
+.post-type-archive {
+	.page-title{
+	text-align:center;
 	}
 }
 // .site-main{
