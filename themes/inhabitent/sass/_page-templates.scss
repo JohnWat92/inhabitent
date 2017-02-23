@@ -83,5 +83,26 @@
 	position:relative;
 }
 .container{
-	width:100vw;
+	// display:flex;
+	// justify-content:center;
+	width:100%;
+}
+
+.shop-container{
+	display:inline-flex;
+	width:1120px;
+	.shop-stuff-icons{
+		flex: 0 1 23%;
+		border:solid 1px lightgrey;
+		border-top:solid 5px lightgrey;
+		padding:2rem;
+		text-align: center;
+		margin:2rem;
+		a{
+			color:white;	
+			text-decoration:none;	
+			background:#248A83;
+			padding: 1rem 2rem;	
+		}
+	}
 }

@@ -114,3 +114,16 @@ require get_template_directory() . '/inc/extras.php';
 // }
 // add_filter( 'login_headertitle', 'my_login_logo_url_title' );
 
+
+
+function custom_post_type_archive( $query ) {
+
+if( is_post_type_archive( 'products' ) ) {
+
+		$query->set( 'posts_per_page', '16' );
+		$query->set( 'orderby', 'title' );
+        $query->set( 'order', 'ASC' );
+	}
+
+}
+add_action( 'pre_get_posts', 'custom_post_type_archive' );

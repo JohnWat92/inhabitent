@@ -12,30 +12,31 @@ get_header(); ?>
 			<div class="home-hero">
 				<img src="<?php echo get_template_directory_uri() ?>/images/logos/inhabitent-logo-full.svg" alt="Inhabitent Logo">
 			</div>
-	<div class = "shop-container">
-		<?php
-			$terms = get_terms( array(
-    			'taxonomy' => 'product_type',
-   				 'orderby' => 'name',) );
-			foreach ($terms as $term):
-			$url = get_term_link ($term->slug, 'product_type');
-		?>
-		
-		<div class = "shop-stuff-icons">
-			<div class = "product-icon-image">
-				<img src="<?php echo get_template_directory_uri();?>/images/product-type-icons/<?php echo $term->slug; ?>.svg" alt="">
+			<h2> Shop Stuff </h2>
+	<section class = "shop-stuff container">
+		<div class = "shop-container">
+			<?php
+				$terms = get_terms( array(
+					'taxonomy' => 'product_type',
+					'orderby' => 'name',) );
+				foreach ($terms as $term):
+				$url = get_term_link ($term->slug, 'product_type');
+			?>
+			<div class = "shop-stuff-icons">
+				<div class = "product-icon-image">
+					<img src="<?php echo get_template_directory_uri();?>/images/product-type-icons/<?php echo $term->slug; ?>.svg" alt="">
+				</div>
+				<p><?php echo $term->description;?></p>
+				<a href='<?php echo $url?>' class='button-link'><?php echo $term->name ; ?><?php echo ' stuff';?></a>
 			</div>
-			<p><?php echo $term->description;?></p>
-			<a href='<?php echo $url?>' class='button-link'><?php echo $term->name; ?></a>
+		<?php endforeach; ?>
 		</div>
-	<?php endforeach; ?>
-	</div>
+	</section>
 
-
-			<?php while ( have_posts() ) : the_post(); ?>
-				<?php get_template_part( 'template-parts/content', 'page' ); ?>
-			<?php endwhile; // End of the loop. ?>
-
+	<?php while ( have_posts() ) : the_post(); ?>
+		<?php get_template_part( 'template-parts/content', 'page' ); ?>
+	<?php endwhile; // End of the loop. ?>
+	<section class = "journal-entry container">
 			<div class="journal-3">
        			<?php
 					global $post;
@@ -53,12 +54,12 @@ get_header(); ?>
         				<br />
         				<?php the_title(); ?>   
 						</div>
-        <!--<?php the_attachment_link( $post->ID, false ); ?>-->
-    </div>
-<?php
-endforeach; 
-wp_reset_postdata();
-?>
+   		 </div>
+	</section>
+	<?php
+	endforeach; 
+	wp_reset_postdata();
+	?>
                  
    </div>  
 		</main><!-- #main -->

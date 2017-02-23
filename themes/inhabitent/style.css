@@ -894,4 +894,22 @@ object {
   position: relative; }
 
 .container {
-  width: 100vw; }
+  width: 100%; }
+
+.shop-container {
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  width: 1120px; }
+  .shop-container .shop-stuff-icons {
+    -ms-flex: 0 1 23%;
+        flex: 0 1 23%;
+    border: solid 1px lightgrey;
+    border-top: solid 5px lightgrey;
+    padding: 2rem;
+    text-align: center;
+    margin: 2rem; }
+    .shop-container .shop-stuff-icons a {
+      color: white;
+      text-decoration: none;
+      background: #248A83;
+      padding: 1rem 2rem; }
