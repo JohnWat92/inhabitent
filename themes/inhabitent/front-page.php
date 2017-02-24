@@ -12,7 +12,7 @@ get_header(); ?>
 			<div class="home-hero">
 				<img src="<?php echo get_template_directory_uri() ?>/images/logos/inhabitent-logo-full.svg" alt="Inhabitent Logo">
 			</div>
-			<h2> Shop Stuff </h2>
+	<h2> Shop Stuff</h2>
 	<section class = "shop-stuff container">
 		<div class = "shop-container">
 			<?php
@@ -20,7 +20,7 @@ get_header(); ?>
 					'taxonomy' => 'product_type',
 					'orderby' => 'name',) );
 				foreach ($terms as $term):
-				$url = get_term_link ($term->slug, 'product_type');
+				$url = get_term_link ($term->slug , 'product_type');
 			?>
 			<div class = "shop-stuff-icons">
 				<div class = "product-icon-image">
@@ -36,31 +36,39 @@ get_header(); ?>
 	<?php while ( have_posts() ) : the_post(); ?>
 		<?php get_template_part( 'template-parts/content', 'page' ); ?>
 	<?php endwhile; // End of the loop. ?>
-	<section class = "journal-entry container">
+	<section class = "journal-entry-container">
 			<div class="journal-3">
        			<?php
 					global $post;
 					$args = array( 'posts_per_page' => 3, 'order'=> 'DSC', 'orderby' => 'post_date' );
 					$postslist = get_posts( $args );
 					foreach ( $postslist as $post ) :
-  						setup_postdata( $post ); ?> 
+  						setup_postdata( $post );
+				?> 
     					<div class="a-post">
         					<?php if ( has_post_thumbnail() ) : ?>
-           						<p href="<?php the_permalink(); ?>" title="<?php the_title_attribute(); ?>">
+								
+           						<!--<p><a href="<?php the_permalink(); ?>" title="<?php the_title_attribute(); ?>"></a>-->
        							<?php the_post_thumbnail('medium'); ?>
            						</p>
+								<div class="entry-meta">
+									<?php red_starter_posted_on(); ?> / <?php comments_number( '0 Comments', '1 Comment', '% Comments' ); ?>
+								</div>
+									<p><a href="<?php the_permalink(); ?>" title="<?php the_title_attribute(); ?>">
+									<?php the_title(); ?>   </a></p>
+										<a href="<?php echo get_permalink(); ?>"> Read Entry</a>
 							<?php endif; ?>
-       					<?php the_date(); ?>
-        				<br />
-        				<?php the_title(); ?>   
+       					<!--<?php the_date(); ?>
+        				<br />-->
+        			
 						</div>
-   		 </div>
-	</section>
+   		
+	
 	<?php
 	endforeach; 
-	wp_reset_postdata();
+	// wp_reset_postdata();
 	?>
-                 
+             </section>    
    </div>  
 		</main><!-- #main -->
 	</div><!-- #primary -->
