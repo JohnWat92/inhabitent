@@ -44,7 +44,7 @@ get_header(); ?>
                             <a href="<?php the_permalink();?>" ><?php the_post_thumbnail('large'); ?>
                             </a>
                         </div>
-                        <div class="archive-title">
+                        <div class="archive-info">
                             <?php the_title(); ?>   <?php echo CFS()->get('price');?>
                         </div>
                     </li>

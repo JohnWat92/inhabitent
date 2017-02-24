@@ -97,4 +97,9 @@ function product_archive_title($title) {
     }
     return $title;
 }
-add_filter('get_the_archive_title', 'product_archive_title');
+// add_filter('get_the_archive_title', 'product_archive_title');
+
+function grd_custom_archive_title( $title ) {
+	// Remove any HTML, words, digits, and spaces before the title.
+	return preg_replace( '#^[\w\d\s]+:\s*#', '', strip_tags( $title ) );
+}

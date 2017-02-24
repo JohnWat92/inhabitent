@@ -9,9 +9,12 @@ get_header(); ?>
 
 	<div id="primary" class="content-area">
 		<main id="main" class="site-main" role="main">
-			<div class="home-hero">
-				<img src="<?php echo get_template_directory_uri() ?>/images/logos/inhabitent-logo-full.svg" alt="Inhabitent Logo">
+			<div class = "heroContainer">
+				<section class="home-hero">
+					<img src="<?php echo get_template_directory_uri() ?>/images/logos/inhabitent-logo-full.svg" alt="Inhabitent Logo">
+				</section>
 			</div>
+			<div class = "belowHero">
 	<h2> Shop Stuff</h2>
 	<section class = "shop-stuff container">
 		<div class = "shop-container">
@@ -81,6 +84,7 @@ get_header(); ?>
 	?>
              </section>    
    </div>  
+   </div>
 		</main><!-- #main -->
 	</div><!-- #primary -->
 <?php get_footer(); ?>

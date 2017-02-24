@@ -52,25 +52,17 @@
 .bypostauthor {
 	display: block;
 }
-// .entry-header-custom{
-// 	background: linear-gradient( to bottom, rgba(0,0,0,0.4) 0%, rgba(0,0,0,0.4) 100% ),
-// 	url(../../images/about-hero.jpg) no-repeat center bottom;
-// 	    // background:rgba(255,255,255,0.8);
-// 	// 	background: 
-// 	// linear-gradient( to bottom, rgba(0,0,0,0.4) 0%, rgba(0,0,0,0.4) 100% );
-// 	background-size:cover,cover;
+//front page CSS
+.heroContainer{
+	width:100vw;
 
-// 	height:800px;
-// 	// padding-bottom:200px;
-// 	position:relative;
-// }
-
+}
 .home-hero{
 	background: linear-gradient( to bottom, rgba(0,0,0,0.4) 0%, rgba(0,0,0,0.4) 100% ),
-	url(../../images/home-hero.jpg) no-repeat;
+	url(../../images/home-hero.jpg) no-repeat top;
 	background-size:cover, cover;
-	height:750px;
-	width:100vw;
+	height:100vh;
+	width:100%;
 	display:flex;
 	justify-content:center;
 	align-items: center;
@@ -89,7 +81,7 @@
 	justify-content: space-between;
 	margin-left: auto;
     margin-right: auto;
-    width: 1120px;
+    // width: 1120px;
 	.shop-product{
 		flex: 0 1 23%;
 	}
@@ -118,7 +110,22 @@
 // .page .content-area{
 
 // }
-.site-content{
+.blog .site-content{
 	width:1120px;
+	margin:0 auto;
+}
+.archive .site-content{
+	width:1120px;
+	margin:0 auto;
+}
+// .single-post, .page-template-about .site-content{
+// 	width:1120px;
+// 	margin:0 auto;
+// }
+.belowHero{
+	display:flex;
+	flex-direction:column;
+	align-items:center;
+	width:100%;
 	margin:0 auto;
 }

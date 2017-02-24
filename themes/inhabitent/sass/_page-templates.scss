@@ -4,7 +4,7 @@
 
 /* Front page */
 
-.blog .content-area{
+.blog .content-area, .single .content-area{
 	width:70%;
 	padding-right:3rem;
 	padding-left:6rem;
@@ -17,17 +17,15 @@
 	width:30%;
 	padding:3rem;
 }
-
+.single .site-content{
+	width:1120px;
+	margin: 0 auto;
+}
 // .site-content-fullwidth{
 // 	width:100%;
 // }
-.post .entry-header{
-	position:relative;
-	img{
-		width:760px;
-		height:520px;
-	}
-	.entry-title{
+//css positioning for entry title
+	.blog .entry-title, .single .entry-title{
 		position:absolute;
 		padding-left: 1rem;
 		font-size:2rem;
@@ -41,12 +39,16 @@
 		a{
 			color:white;
 			text-decoration:none;
+			&:visited{
+				color:white;
+			}
 			&:hover{
 				color:$color__background-ins;
 			}
 		}
 	}
-	.entry-meta{
+	//css positioning for entry meta
+	.blog .entry-meta, .single .entry-meta{
 		position:absolute;
 		bottom: 6px;
 		color: white;
@@ -64,8 +66,13 @@
 				color:white;
 			}
 		}
+		.comments-link a{
+			&:hover{
+				color:$color__background-ins;
+			}
+		}
 	}
-}
+
 
 .about-hero{
 		background: linear-gradient( to bottom, rgba(0,0,0,0.4) 0%, rgba(0,0,0,0.4) 100% ),
@@ -79,11 +86,11 @@
 	// padding-bottom:200px;
 	position:relative;
 }
-.container{
-	display:flex;
-	justify-content:center;
-	width:100vw;
-}
+
+// .container{
+// 	// display:flex;
+// 	justify-content:center;
+// }
 
 .home .shop-container{
 	display:inline-flex;
@@ -148,6 +155,7 @@
 // .home .site-main{
 // 	font-family:'Novecento';
 // }
+//front page journal entries
 .journal-3{
 	display:inline-flex;
 	justify-content: space-between;
@@ -160,6 +168,7 @@
 	text-transform:uppercase;
 	border-bottom: 1px dashed #c8c8c8;
 	padding-bottom: 2.5rem;
+	text-align: center;
 	margin-bottom: 2rem;
 	width:1120px;
 	a{
@@ -171,4 +180,58 @@
 	text-transform:uppercase;
 		letter-spacing: 2px;
 }
+//journal readmore buttons
+.blog .entry-content{
+	a{
+		border: solid 1px black;
+		padding: .60rem 1.4rem;
+		text-decoration:none;
+		text-transform:uppercase;
+		font-size:.8rem;
+		color:black;
 
+		&:hover{
+			color:white;
+			background:#248A83;
+			border:solid 1px #248A83;
+		}
+	}
+}
+// journal images
+.post .entry-header{
+	position:relative;
+	margin-top:2.5rem;
+	// img{
+	// 	width:760px;
+	// 	height:520px;
+	// }
+}
+//find us page
+.page-id-71 .site-content{
+	max-width:1120px;
+	margin: auto;
+
+
+}
+
+//taxonomy products categories
+
+.tax-product_type .page-header{
+	.page-title{
+		text-transform:uppercase;
+	}
+	border-bottom: 1px dashed #c8c8c8;
+	padding-bottom: 1rem;
+	text-align: center;
+	margin-bottom: 2.5rem;
+	width:1120px;
+}
+//single page entry-footer css
+.single .entry-footer{
+	.cat-links{
+		margin-right: 1.5rem;	
+	}
+	a{
+		text-decoration: none;
+	}
+}
