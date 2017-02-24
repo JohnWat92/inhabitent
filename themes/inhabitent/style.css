@@ -678,6 +678,19 @@ a {
 .post-type-archive .page-title {
   text-align: center; }
 
+.page .entry-title {
+  text-transform: uppercase; }
+
+.page .entry-content h2 {
+  text-transform: uppercase; }
+
+.required {
+  color: #d99054; }
+
+.site-content {
+  width: 1120px;
+  margin: 0 auto; }
+
 .informationBlock {
   display: -ms-flexbox;
   display: flex;
@@ -839,8 +852,6 @@ object {
   width: 70%;
   padding-right: 3rem;
   padding-left: 6rem; }
-  .blog .content-area p {
-    width: 760px; }
 
 .widget-area {
   border-left: solid 1px lightgrey;
@@ -872,7 +883,7 @@ object {
     position: absolute;
     bottom: 6px;
     color: white;
-    right: 155px;
+    right: 0px;
     text-transform: uppercase;
     background-color: #248A83;
     padding: .3rem 1.5rem;
@@ -964,3 +975,17 @@ object {
 
 .home .entry-header .entry-title {
   display: none; }
+
+.category {
+  text-transform: uppercase;
+  border-bottom: 1px dashed #c8c8c8;
+  padding-bottom: 2.5rem;
+  margin-bottom: 2rem;
+  width: 1120px; }
+  .category a {
+    padding: 0rem 1.3rem;
+    text-decoration: none; }
+
+.post-type-archive .page-title {
+  text-transform: uppercase;
+  letter-spacing: 2px; }

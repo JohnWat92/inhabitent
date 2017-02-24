@@ -45,7 +45,7 @@ get_header(); ?>
                             </a>
                         </div>
                         <div class="archive-title">
-                            <p><?php the_title(); ?></p>    <?php echo CFS()->get('price');?>
+                            <?php the_title(); ?>   <?php echo CFS()->get('price');?>
                         </div>
                     </li>
                 <?php endwhile; ?>
