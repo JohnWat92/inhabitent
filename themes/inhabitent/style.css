@@ -686,7 +686,8 @@ a {
   color: white; }
 
 .site-info {
-  background: url("../../images/dark-wood.png"); }
+  background: url("../../images/dark-wood.png");
+  margin-top: 4rem; }
   .site-info a {
     color: white;
     text-decoration: none; }
@@ -914,6 +915,9 @@ object {
     margin: 1rem;
     -ms-flex-align: baseline;
         align-items: baseline; }
+    .home .shop-container .shop-stuff-icons:hover {
+      border: solid 1px #d99054;
+      border-top: solid 5px #d99054; }
     .home .shop-container .shop-stuff-icons a {
       color: white;
       text-decoration: none;
@@ -921,6 +925,8 @@ object {
       padding: .75rem 1.5rem;
       font-size: .9rem;
       text-transform: uppercase; }
+      .home .shop-container .shop-stuff-icons a:hover {
+        background: #1b6661; }
     .home .shop-container .shop-stuff-icons img {
       width: 70px;
       height: 70px; }
@@ -930,11 +936,17 @@ object {
   text-transform: uppercase;
   font-size: 2.4rem; }
 
-.journal-entry-container {
+.journal-entry {
   display: -ms-inline-flexbox;
-  display: inline-flex; }
+  display: inline-flex;
+  -ms-flex-pack: center;
+      justify-content: center; }
 
-.home .a-post a {
+.a-post {
+  border: solid 1px lightgrey;
+  margin: .75rem; }
+
+.home .journalExcerpt a {
   color: #248a83;
   background: white;
   border: solid 1px black;
@@ -942,3 +954,13 @@ object {
   padding: 1rem;
   text-transform: uppercase;
   margin-bottom: 1rem; }
+
+.journal-3 {
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -ms-flex-pack: justify;
+      justify-content: space-between;
+  width: 1120px; }
+
+.home .entry-header .entry-title {
+  display: none; }

@@ -18,7 +18,9 @@ get_header(); ?>
 			<?php
 				$terms = get_terms( array(
 					'taxonomy' => 'product_type',
-					'orderby' => 'name',) );
+					'orderby' => 'name',
+					'hide_empty' => 'false'
+					) );
 				foreach ($terms as $term):
 				$url = get_term_link ($term->slug , 'product_type');
 			?>
@@ -36,7 +38,9 @@ get_header(); ?>
 	<?php while ( have_posts() ) : the_post(); ?>
 		<?php get_template_part( 'template-parts/content', 'page' ); ?>
 	<?php endwhile; // End of the loop. ?>
-	<section class = "journal-entry-container">
+	<h2> inhabitent journal</h2>
+	<section class = "journal-entry container">
+		
 			<div class="journal-3">
        			<?php
 					global $post;
@@ -45,21 +49,28 @@ get_header(); ?>
 					foreach ( $postslist as $post ) :
   						setup_postdata( $post );
 				?> 
+						
     					<div class="a-post">
         					<?php if ( has_post_thumbnail() ) : ?>
 								
            						<!--<p><a href="<?php the_permalink(); ?>" title="<?php the_title_attribute(); ?>"></a>-->
        							<?php the_post_thumbnail('medium'); ?>
            						</p>
-								<div class="entry-meta">
-									<?php red_starter_posted_on(); ?> / <?php comments_number( '0 Comments', '1 Comment', '% Comments' ); ?>
-								</div>
+
+								<div class ="a-post-info">
+									<div class="entry-meta">
+										<?php red_starter_posted_on(); ?> / <?php comments_number( '0 Comments', '1 Comment', '% Comments' ); ?>
+									</div>
 									<p><a href="<?php the_permalink(); ?>" title="<?php the_title_attribute(); ?>">
 									<?php the_title(); ?>   </a></p>
+									<div class = "journalExcerpt">
 										<a href="<?php echo get_permalink(); ?>"> Read Entry</a>
+									</div>
+								</div>
 							<?php endif; ?>
        					<!--<?php the_date(); ?>
         				<br />-->
+					
         			
 						</div>
    		

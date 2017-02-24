@@ -9,6 +9,7 @@
 get_header(); ?>
     <div id="primary" class="content-area">
         <main id="main" class="site-main" role="main">
+
         <?php if ( have_posts() ) : ?>
             <header class="page-header">
                 <?php
@@ -17,22 +18,6 @@ get_header(); ?>
                         the_archive_description( '<div class="taxonomy-description">', '</div>' );
                 ?>
             </header>
-            <section class = "shop-category container">
-                <div class = "category container">
-                    <?php
-                        $terms = get_terms( array(
-                            'taxonomy' => 'product_type',
-                            'orderby' => 'name',
-                            'hide_empty' => 'false'
-                            ) );
-                        foreach ($terms as $term):
-                        $url = get_term_link ($term->slug , 'product_type');
-                    ?>
-                        <a href='<?php echo $url?>' class='button-link'><?php echo $term->name ; ?></a>
-                   
-                    <?php endforeach; ?>
-                </div>
-	        </section>
             <div class = "container">
             <ul class="shop-flexbox">
                 <section class="allproducts">
