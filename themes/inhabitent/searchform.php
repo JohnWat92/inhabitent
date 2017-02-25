@@ -6,8 +6,6 @@
 			</span>
 			<span class="screen-reader-text"><?php echo esc_html( 'Search' ); ?></span>
 		</button>
-		<label>
 			<input type="search" class="search-field" placeholder="TYPE AND HIT ENTER..." value="<?php echo esc_attr( get_search_query() ); ?>" name="s" title="Search for:" />
-		</label>
 	</fieldset>
-</form>
+</form>	

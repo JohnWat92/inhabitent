@@ -197,7 +197,7 @@ input[type="search"]::-webkit-search-decoration {
   -webkit-appearance: none; }
 
 fieldset {
-  border: 1px solid #c0c0c0;
+  border: 0px solid #c0c0c0;
   margin: 0 2px;
   padding: 0.35em 0.625em 0.75em; }
 
@@ -413,7 +413,10 @@ input[type="submit"] {
   padding-top: 1rem; }
   .search-form fieldset .search-field {
     background: transparent;
-    border: solid 1px transparent; }
+    border: solid 0px transparent;
+    width: 0; }
+  .search-form fieldset .search-width {
+    width: 170px; }
 
 /* Fields */
 input[type="text"],
@@ -422,8 +425,7 @@ input[type="url"],
 input[type="password"],
 input[type="search"],
 textarea {
-  color: #666;
-  border: 1px solid #ccc;
+  color: white;
   border-radius: 3px; }
   input[type="text"]:focus,
   input[type="email"]:focus,
@@ -795,8 +797,6 @@ i {
   display: inline-flex;
   -ms-flex-align: center;
       align-items: center; }
-  .navSearchContainer fieldset {
-    border: solid 0px white; }
 
 /*--------------------------------------------------------------
 # Media

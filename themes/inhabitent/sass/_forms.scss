@@ -27,22 +27,30 @@ input[type="submit"] {
 		}
 	}
 
-	&:active,
-	&:focus {
-		// border-color: #aaa #bbb #bbb;
-		// box-shadow: inset 0 -1px 0 rgba(255, 255, 255, 0.5), inset 0 2px 5px rgba(0, 0, 0, 0.15);
-	}
+	// &:active,
+	// &:focus {
+	// 	// border-color: #aaa #bbb #bbb;
+	// 	// box-shadow: inset 0 -1px 0 rgba(255, 255, 255, 0.5), inset 0 2px 5px rgba(0, 0, 0, 0.15);
+	// }
 }
 .icon-search{
 	color:white;
 }
+// .search-field{
+// 	display: none;
+// }
 .search-form	{
 	padding-top:1rem;
 	fieldset .search-field{
 		background:transparent;
-		border:solid 1px transparent;
+		border:solid 0px transparent;
+		width:0;
+	}
+	fieldset .search-width{
+		width:170px;
 	}
 }
+
 
 /* Fields */
 
@@ -52,8 +60,8 @@ input[type="url"],
 input[type="password"],
 input[type="search"],
 textarea {
-	color: #666;
-	border: 1px solid #ccc;
+	color: white;
+	// border: 1px solid #ccc;
 	border-radius: 3px;
 
 	&:focus {
