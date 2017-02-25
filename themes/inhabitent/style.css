@@ -899,7 +899,7 @@ object {
 
 .blog .entry-meta, .single .entry-meta {
   position: absolute;
-  bottom: 6px;
+  bottom: 6.5px;
   color: white;
   right: 0px;
   text-transform: uppercase;
@@ -1038,3 +1038,31 @@ object {
 
 .single .entry-footer a {
   text-decoration: none; }
+
+.archive-info {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: justify;
+      justify-content: space-between;
+  padding: .7rem 1rem;
+  border-top: solid 5px lightgrey;
+  border: solid 1px lightgrey;
+  margin-bottom: 2rem;
+  position: relative; }
+  .archive-info .dotStuff {
+    position: absolute;
+    top: -4.5px;
+    right: 37px;
+    z-index: -1; }
+  .archive-info .productTitle {
+    background: white; }
+  .archive-info .priceTag {
+    background: white; }
+
+.archive-product {
+  height: 250px;
+  border-bottom: solid 5px lightgrey;
+  z-index: 100; }
+  .archive-product img {
+    height: 100%;
+    object-fit: cover; }

@@ -45,7 +45,15 @@ get_header(); ?>
                             </a>
                         </div>
                         <div class="archive-info">
-                            <?php the_title(); ?>   <?php echo CFS()->get('price');?>
+                            <div class = "productTitle">
+                             <?php the_title(); ?>   
+                            </div>
+                            <div class ="dotStuff">
+                                <p class = "dotBackground">.............................</p>
+                            </div>
+                            <div class = "priceTag">
+                              <?php echo CFS()->get('price');?>
+                            </div>
                         </div>
                     </li>
                 <?php endwhile; ?>
