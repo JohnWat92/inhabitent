@@ -73,7 +73,7 @@ function inhabitent_login_title() {
 add_filter('login_headertitle', 'inhabitent_login_tile');
 
 function inhabitent_about_css(){
-	if (!is_page_template('pages-templates/about.php')) {
+	if (!is_page_template('page-templates/about.php')) {
 		return;
 	}
 	$image = CFS()->get('about_header_image');

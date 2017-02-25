@@ -29,8 +29,16 @@ get_header(); ?>
                             <a href="<?php the_permalink();?>" ><?php the_post_thumbnail('large'); ?>
                             </a>
                         </div>
-                        <div class="archive-title">
-                            <?php the_title(); ?>    <?php echo CFS()->get('price');?>
+                                <div class="archive-info">
+                            <div class = "productTitle">
+                             <?php the_title(); ?>   
+                            </div>
+                            <div class ="dotStuff">
+                                <p class = "dotBackground">.............................</p>
+                            </div>
+                            <div class = "priceTag">
+                              <?php echo CFS()->get('price');?>
+                            </div>
                         </div>
                     </li>
                 <?php endwhile; ?>

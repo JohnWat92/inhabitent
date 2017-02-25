@@ -77,10 +77,13 @@
 	display:flex;
 	justify-content: space-between;
 }
-// .navSearchContainer{
-//     display:inline-flex;
-//     align-items:center;
-//     .searchIconForm{
-//         display:inline-flex;
-//     }
-// }
+.navSearchContainer{
+    display:inline-flex;
+    align-items:center;
+    fieldset{
+        border:solid 0px white;
+        .button{
+            
+        }
+    }
+}
