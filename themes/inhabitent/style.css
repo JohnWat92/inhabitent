@@ -362,6 +362,18 @@ big {
   font-size: .8rem;
   font-family: 'Novecento Sans Web','sans-serif'; }
 
+.site-info h3 {
+  font-family: 'Novecento Sans Web','sans-serif';
+  letter-spacing: 2px; }
+
+.site-info .info-hours p {
+  font-family: 'Merriweather Web', 'sans-serif';
+  font-size: .9rem; }
+
+.footerCopyRight {
+  font-family: 'Novecento Sans Web','sans-serif';
+  font-size: .9rem; }
+
 .date h1 {
   text-transform: uppercase;
   font-family: 'Novecento Sans Web','sans-serif'; }
@@ -767,7 +779,8 @@ h3 {
 
 .footerCopyRight {
   text-align: center;
-  color: white; }
+  color: white;
+  padding-bottom: 2rem; }
   .footerCopyRight p {
     margin: 0;
     text-transform: uppercase; }
