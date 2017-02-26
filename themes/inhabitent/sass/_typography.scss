@@ -72,3 +72,52 @@ big {
 .widget-title{
 	text-transform:uppercase;
 }
+//FRONT PAGEEEEEEEEEEEEEEEEEEEEEEEEEEE
+.home .navWrap #primary-menu{
+	font-family:'Merriweather Web', 'sans-serif';
+}
+.home h2{
+		font-family: 'Novecento Sans Web','sans-serif';	
+	font-weight:normal;
+	letter-spacing: 2px;
+}
+.shop-stuff-icons {
+	p{
+	font-family: 'Merriweather Web', 'sans-serif';
+	font-size:.9rem;
+	}
+	a{
+		font-family:  'Novecento Sans Web','sans-serif';	
+		font-size: .9rem;	
+	}
+}
+
+.home .entry-meta{
+	font-family: 'Merriweather Web', 'sans-serif';
+	font-size:.7rem;
+	
+}
+
+.home .a-post-info{
+	p a{
+		font-family:  'Novecento Sans Web','sans-serif';	
+		text-transform: uppercase;
+		text-decoration:none;
+		font-weight:bold;
+		font-size:1.2rem;
+		letter-spacing:2px;
+		line-height:1;
+	}
+}
+.home .a-post-info .journalExcerpt{
+	a{
+		font-size:.8rem;
+		font-family:  'Novecento Sans Web','sans-serif';
+		// font-weight:normal;
+	}
+}
+.date h1{
+	text-transform:uppercase;
+	font-family: 'Novecento Sans Web','sans-serif';
+}
+// END OF FRONT PAGEEEEEEEEE

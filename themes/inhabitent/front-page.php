@@ -4,7 +4,6 @@
  *
  * @package RED_Starter_Theme
  */
-
 get_header(); ?>
 
 	<div id="primary" class="content-area">
@@ -55,10 +54,10 @@ get_header(); ?>
 						
     					<div class="a-post">
         					<?php if ( has_post_thumbnail() ) : ?>
-								
-           						<!--<p><a href="<?php the_permalink(); ?>" title="<?php the_title_attribute(); ?>"></a>-->
+								<div class = "a-post-image"><!--<p><a href="<?php the_permalink(); ?>" title="<?php the_title_attribute(); ?>"></a>-->
        							<?php the_post_thumbnail('medium'); ?>
-           						</p>
+								</div>
+           						<!--</p>-->
 
 								<div class ="a-post-info">
 									<div class="entry-meta">
