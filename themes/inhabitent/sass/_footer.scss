@@ -1,7 +1,17 @@
 .informationBlock{
 	display:flex;
-	justify-content: space-around;
+	justify-content: space-between;
 	color:white;
+    width:1120px;
+    padding-top:2rem;
+    margin:0 auto;
+    
+    .info-hours{
+        display:inline-flex;
+        .contactInfo{
+            margin-right:5rem;
+        }
+    }
 }
 .site-info{
 	background: url("../../images/dark-wood.png");
@@ -26,7 +36,7 @@ h3{
     }
 }
 .companyLogo{
-    margin-top:3rem;
+    margin-top:2rem;
     img{
         width:70%;
     }

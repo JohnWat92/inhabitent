@@ -4,7 +4,7 @@
 
 /* Front page */
 
-.blog .content-area, .single .content-area{
+.blog .content-area, .single-post .content-area{
 	width:70%;
 	padding-right:3rem;
 	padding-left:6rem;
@@ -19,13 +19,19 @@
 }
 .single .site-content{
 	width:1120px;
-	margin: 0 auto;
+	margin-left: auto;
+	margin-right:auto;
+}
+.page-template .site-content{
+		width:1120px;
+	margin-left: auto;
+	margin-right:auto;
 }
 // .site-content-fullwidth{
 // 	width:100%;
 // }
 //css positioning for entry title
-	.blog .entry-title, .single .entry-title{
+	.blog .entry-title, .single-post .entry-title{
 		position:absolute;
 		padding-left: 1rem;
 		font-size:2rem;
@@ -48,7 +54,7 @@
 		}
 	}
 	//css positioning for entry meta
-	.blog .entry-meta, .single .entry-meta{
+	.blog .entry-meta, .single-post .entry-meta{
 		position:absolute;
 		bottom: 6.5px;
 		color: white;
@@ -241,7 +247,7 @@
 	.dotStuff{
 		position:absolute;
 	    top: -4.5px;
-		right: 60px;
+		right: 68px;
 		letter-spacing: -1px;
 		z-index: -1;
 	}
@@ -264,6 +270,4 @@
 	}
 }
 
-// .shop-product{
-
-// }
+//single-page products

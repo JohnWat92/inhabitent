@@ -17,29 +17,32 @@
 
 	<body <?php body_class(); ?>>
 		<div id="page" class="hfeed site">
-			<a class="skip-link screen-reader-text" href="#content"><?php esc_html( 'Skip to content' ); ?></a>
-
+			<a class="skip-link screen-reader-text" href="#content">
+				<?php esc_html( 'Skip to content' ); ?>
+			</a>
 			<header id="masthead" class="site-header" role="banner">
-				<div class = "navWrap">
-					<div class="site-branding">
-						<a href = "/inhabitent/home">
-							<div class = "tentLogo">
+				<div class = "navContainer">
+					<div class = "navWrap">
+						<div class="site-branding">
+							<a href = "/inhabitent/home"><div class = "tentLogo"></div></a>
+							<h1 class="site-title screen-reader-text">
+								<a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a>
+							</h1>
+							<p class="site-description"><?php bloginfo( 'description' ); ?></p>
+						</div><!-- .site-branding -->
+
+						<div class = "navSearchContainer">
+							<nav id="site-navigation" class="main-navigation" role="navigation">
+								<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><?php esc_html( 'Primary Menu' ); ?></button>
+								<?php wp_nav_menu( array( 'theme_location' => 'primary', 'menu_id' => 'primary-menu' ) ); ?>
+							</nav><!-- #site-navigation -->
+							<div>
+								<?php get_search_form(); ?>
 							</div>
-						</a>
-						<h1 class="site-title screen-reader-text"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
-						<p class="site-description"><?php bloginfo( 'description' ); ?></p>
-					</div><!-- .site-branding -->
-					<div class = "navSearchContainer">
-						<nav id="site-navigation" class="main-navigation" role="navigation">
-							<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><?php esc_html( 'Primary Menu' ); ?></button>
-							<?php wp_nav_menu( array( 'theme_location' => 'primary', 'menu_id' => 'primary-menu' ) ); ?>
-							
-						</nav><!-- #site-navigation -->
-						<div>
-							<?php get_search_form(); ?>
-							</div>
+						</div>
 					</div>
-				</div>
+				<!--</div>-->
+				</div><!-- .navContainer -->
 			</header><!-- #masthead -->
 
 			<div id="content" class="site-content">
