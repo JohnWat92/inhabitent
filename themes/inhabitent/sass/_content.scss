@@ -81,7 +81,6 @@
 	justify-content: space-between;
 	margin-left: auto;
     margin-right: auto;
-    // width: 1120px;
 	.shop-product{
 		flex: 0 1 23%;
 	}
@@ -107,9 +106,7 @@
 .required{
 	color:#d99054;
 }
-// .page .content-area{
 
-// }
 .blog .site-content{
 	width:1120px;
 	margin:0 auto;
@@ -118,10 +115,7 @@
 	width:1120px;
 	margin:0 auto;
 }
-// .single-post, .page-template-about .site-content{
-// 	width:1120px;
-// 	margin:0 auto;
-// }
+
 .belowHero{
 	display:flex;
 	flex-direction:column;
@@ -129,62 +123,6 @@
 	width:100vw;
 	margin:0 auto;
 }
-//adventures logos
-// .adventureImages{
-// 	display:flex;
-// 	width:1080px;
-// 	box-sizing: border-box;
-// 	height:540px;
-// }
-// .leftbox, .rightBox{
-// 	height:540px;
-// 	width:540px;
-// }
-
-// .rightBox{
-// 	display:flex;
-// 	flex-wrap: wrap;
-// 		background: linear-gradient( to bottom, rgba(0,0,0,0.4) 0%, rgba(0,0,0,0.4) 100% );
-// }
-// .longImage {
-// 	width:540px;
-// 	height:540px;
-// 	margin-right:1rem;
-// 	img{
-// 		object-fit: cover;
-// 		height:100%;
-// 			z-index:-1;
-// 	}
-// }
-// .wideImage {
-
-// 	width:100%;
-// 	height:50%;
-// 	padding-bottom:.5rem;
-// 	img{
-// 		object-fit: cover;
-// 		height:100%;
-// 		width:100%;
-// 		z-index:-1;
-// 	}
-// }
-// .squareImage {
-// 	padding-top:.5rem;
-// 	width:50%;
-// 	height:50%;
-// 	img{
-// 		object-fit: cover;
-// 		height:100%;
-// 		width:100%;
-// 			z-index:-1;
-// 	}
-// }
-// .rightBoxLeftImage{
-// 	padding-right:.5rem;
-// }
-// .rightBoxRightImage{
-// 	padding-left:.5rem;
-// }
 
 .adventureImages{
 	display:flex;

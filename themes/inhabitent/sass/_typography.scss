@@ -74,34 +74,34 @@ big {
 }
 //FRONT PAGEEEEEEEEEEEEEEEEEEEEEEEEEEE
 .home .navWrap #primary-menu{
-	font-family:'Merriweather Web', 'sans-serif';
+	font-family:$normalFont;
 	font-size:1rem;
 }
 .home h2{
-		font-family: 'Novecento Sans Web','sans-serif';	
+		font-family: $accentFont;	
 	font-weight:normal;
 	letter-spacing: 2px;
 }
 .shop-stuff-icons {
 	p{
-	font-family: 'Merriweather Web', 'sans-serif';
+	font-family: $normalFont;
 	font-size:.9rem;
 	}
 	a{
-		font-family:  'Novecento Sans Web','sans-serif';	
+		font-family:  $accentFont;	
 		font-size: .9rem;	
 	}
 }
 
 .home .entry-meta{
-	font-family: 'Merriweather Web', 'sans-serif';
+	font-family: $normalFont;
 	font-size:.8rem;
 	
 }
 
 .home .a-post-info{
 	p a{
-		font-family:  'Novecento Sans Web','sans-serif';	
+		font-family:  $accentFont;	
 		text-transform: uppercase;
 		text-decoration:none;
 		font-weight:bold;
@@ -113,20 +113,20 @@ big {
 .home .a-post-info .journalExcerpt{
 	a{
 		font-size:.9rem;
-		font-family:  'Novecento Sans Web','sans-serif';
+		font-family:  $accentFont;
 		// font-weight:normal;
 	}
 }
 .site-info h3{
-	font-family:  'Novecento Sans Web','sans-serif';
+	font-family:  $accentFont;
 	letter-spacing: 2px;
 }
 .site-info .info-hours p{
-		font-family: 'Merriweather Web', 'sans-serif';
+		font-family: $normalFont;
 		font-size:.9rem;
 }
 .footerCopyRight{
-	font-family: 'Novecento Sans Web','sans-serif';
+	font-family: $accentFont;
 	font-size:.9rem;
 }
 // END OF FRONT PAGEEEEEEEEE
@@ -134,57 +134,57 @@ big {
 //archivepage title css
 .date h1{
 	text-transform:uppercase;
-	font-family: 'Novecento Sans Web','sans-serif';
+	font-family: $accentFont;
 }
 
 //shop page css
 .page-header{
 	.page-title{
-	font-family:  'Novecento Sans Web','sans-serif';
+	font-family:  $accentFont;
 	}
 	.taxonomy-description{
-		font-family: 'Merriweather Web', 'sans-serif';
+		font-family: $normalFont;
 	}
 }
 .shop-category{
 	.category a{
 		
-			font-family:  'Novecento Sans Web','sans-serif';
+			font-family:  $accentFont;
 	}
 } 
 .archive-info{
 	.productTitle {
-		font-family: 'Merriweather Web', 'sans-serif';
+		font-family: $normalFont;
 		font-size:1rem;
 	}
 	.priceTag{
-	font-family: 'Merriweather Web', 'sans-serif';
+	font-family: $normalFont;
 	font-size:.9rem;			
 	}
 }
 //JOURNAL PAGEEEEEE
 .blog, .single-post {
 	.entry-title{	
-	font-family:  'Novecento Sans Web','sans-serif';
+	font-family:  $accentFont;
 	font-weight: bold;
 	}
 	.entry-meta{
-		font-family:  'Novecento Sans Web','sans-serif';
+		font-family:  $accentFont;
 	}
 	.entry-content{
-		font-family: 'Merriweather Web', 'sans-serif';
+		font-family: $normalFont;
 	}
 	.read-more{
-		font-family:  'Novecento Sans Web','sans-serif';
+		font-family:  $accentFont;
 	}
 	.entry-footer{
-		font-family:  'Novecento Sans Web','sans-serif';
+		font-family:  $accentFont;
 	}
 }
 //ABOUT PAGEEEE
 .page-template-about{
 	h1, h2{
-		font-family:  'Novecento Sans Web','sans-serif';
+		font-family:  $accentFont;
 		font-weight: bold;
 		letter-spacing:2px;
 	}
@@ -195,14 +195,14 @@ big {
 		font-size: 2.1rem;
 	}
 	.p1{
-		font-family: 'Merriweather Web', 'sans-serif';
+		font-family: $normalFont;
 	}
 }
 //FIND US PAGEEE
 
 .page-id-71{
 	h1, h2{
-		font-family:  'Novecento Sans Web','sans-serif';
+		font-family:  $accentFont;
 		font-weight: bold;
 		letter-spacing:2px;
 	}
@@ -214,14 +214,14 @@ big {
 		color:#2f1339;
 	}
 	.entry-content p{
-		font-family: 'Merriweather Web', 'sans-serif';
+		font-family: $normalFont;
 		margin-top:0;
 		margin-bottom:0;
 	}
 	.wpcf7{
 		p{
 			text-transform: uppercase;
-			font-family:  'Novecento Sans Web','sans-serif';
+			font-family:  $accentFont;
 			margin-bottom:1rem;
 
 		}
@@ -229,10 +229,10 @@ big {
 			margin-top:.5rem;
 		}
 		.wpcf7-submit{
-			background:#248A8B;
+			background:#248a83;
 			color:white;
 			text-transform: uppercase;
-			font-family:  'Novecento Sans Web','sans-serif';
+			font-family:  $accentFont;
 			padding:.4rem 1.25rem;
 			font-size:.9rem;
 			&:hover{
@@ -245,53 +245,53 @@ big {
 //WIDGET STYLING
 #secondary{
 	.widget-title {
-		font-family:  'Novecento Sans Web','sans-serif';
+		font-family:  $accentFont;
 		color:#2f1339;
 		font-size:1.5rem;
 	}
 	.textwidget{
-		font-family: 'Merriweather Web', 'sans-serif';
+		font-family: $normalFont;
 			a{
 			text-decoration:none;
 			}
 			font-size:1rem;
 	}
 	.biz-hours-widget-class p{
-		font-family: 'Merriweather Web', 'sans-serif';
+		font-family: $normalFont;
 	}
 	.widget_archive{
 		a{
-				font-family: 'Merriweather Web', 'sans-serif';
+				font-family: $normalFont;
 		}
 	}
 }
 //journal archive page styling
 .date{
 		.entry-title{	
-	font-family:  'Novecento Sans Web','sans-serif';
+	font-family:  $accentFont;
 	font-weight: bold;
 	}
 	.entry-meta{
-		font-family:  'Novecento Sans Web','sans-serif';
+		font-family:  $accentFont;
 	}
 	.entry-content{
-		font-family: 'Merriweather Web', 'sans-serif';
+		font-family: $normalFont;
 	}
 	.read-more{
-		font-family:  'Novecento Sans Web','sans-serif';
+		font-family:  $accentFont;
 	}
 }
 //single products page styling
 .single-products{
 	.entry-title{
 		text-transform:uppercase;
-		font-family:  'Novecento Sans Web','sans-serif';
+		font-family:  $accentFont;
 		font-weight:bold;
 		color:#d99054;
 		letter-spacing:2px;
 	}
 	.priceTag{
-			font-family:  'Novecento Sans Web','sans-serif';
+			font-family:  $accentFont;
 			font-size:1.7rem;
 	}
 	.socialMediaButtons{
@@ -299,11 +299,11 @@ big {
 		a{
 			text-decoration:none;
 			text-transform:uppercase;
-			font-family:  'Novecento Sans Web','sans-serif';
+			font-family:  $accentFont;
 			color:black;
 			font-size:.8rem;
 			&:hover{
-			background:#248a8b;
+			background:#248a83;
 			color:white;
 			}
 		
@@ -311,7 +311,7 @@ big {
 		
 	}
 	p{
-			font-family: 'Merriweather Web', 'sans-serif';
+			font-family: $normalFont;
 	}
 }
 .single-post .socialMediaButtons{
@@ -319,11 +319,11 @@ big {
 		a{
 			text-decoration:none;
 			text-transform:uppercase;
-			font-family:  'Novecento Sans Web','sans-serif';
+			font-family:  $accentFont;
 			color:black;
 			font-size:.8rem;
 			&:hover{
-			background:#248a8b;
+			background:#248a83;
 			color:white;
 			}
 		
@@ -332,45 +332,45 @@ big {
 	}
 	//COMMENT SECTION 
 	.comments-title{
-		font-family:  'Novecento Sans Web','sans-serif';
+		font-family:  $accentFont;
 		font-weight:bold;
 		color:#2f1339;
 		text-transform:uppercase;
 	}
 	.comment-author{
-		font-family: 'Merriweather Web', 'sans-serif';
+		font-family: $normalFont;
 		font-weight:bold;
 		font-style: normal;
 	}
 	.comment-metadata{
-		font-family: 'Merriweather Web', 'sans-serif';
+		font-family: $normalFont;
 		color:#808080;
 	}
 	.comment-content{
 		p{
-			font-family: 'Merriweather Web', 'sans-serif';
+			font-family: $normalFont;
 		}
 		.reply{
-			font-family: 'Merriweather Web', 'sans-serif';
+			font-family: $normalFont;
 		}
 	}
 	#reply-title{
-		font-family:  'Novecento Sans Web','sans-serif';
+		font-family:  $accentFont;
 		letter-spacing:2px;
 		font-size:1.5rem;
 		color:#404040;
 	}
 	.comment-form-comment{
-		font-family:  'Novecento Sans Web','sans-serif';
+		font-family:  $accentFont;
 		font-size:1rem;
 		text-transform:uppercase;
 	}
 	.form-submit{
 		#submit{
-			background:#248A8B;
+			background:#248a83;
 			color:white;
 			text-transform: uppercase;
-			font-family:  'Novecento Sans Web','sans-serif';
+			font-family:  $accentFont;
 			padding:.4rem 1.25rem;
 			font-size:.9rem;
 			&:hover{
@@ -382,7 +382,7 @@ big {
 //ERROR 404 PAGE STYLING
 .error404{
 	.page-title {
-		font-family:  'Novecento Sans Web','sans-serif';
+		font-family:  $accentFont;
 		font-weight:bold;
 		text-transform: uppercase;
 		font-size:2rem;
@@ -391,17 +391,17 @@ big {
 }
 .error404 .page-content{
 	.widgettitle, .widget-title{
-		font-family:  'Novecento Sans Web','sans-serif';
+		font-family:  $accentFont;
 		font-weight:bold;
 		color:#2f1339;
 		text-transform:uppercase;
 		letter-spacing:2px;
 	}
 	ul a{
-		font-family: 'Merriweather Web', 'sans-serif';
+		font-family: $normalFont;
 	}
 	p{
-		font-family: 'Merriweather Web', 'sans-serif';
+		font-family: $normalFont;
 	}
 }
 //ABOUT PAGE   
@@ -410,7 +410,7 @@ big {
 }
 .page-template-about{
 	.entry-title{
-		font-family:  'Novecento Sans Web','sans-serif';
+		font-family:  $accentFont;
 		font-weight:bold;
 	}
 	.container h2{
@@ -420,17 +420,17 @@ big {
 //adventure stuff 
 .home .adventureImages{
 	.longImageText{
-		font-family: 'Merriweather Web', 'sans-serif';
+		font-family: $normalFont;
 		font-size:3rem;
 		color:white;
 	}
 	.wideImageText{
-		font-family: 'Merriweather Web', 'sans-serif';
+		font-family: $normalFont;
 		font-size:2.4rem;
 		color:white;
 	}
 	.squareImageText{
-		font-family: 'Merriweather Web', 'sans-serif';
+		font-family: $normalFont;
 		font-size:1.5rem;
 		color:white;
 	}
@@ -450,10 +450,10 @@ big {
 		text-decoration:none;
 		text-transform: uppercase;
 		font-size:.9rem;
-		font-family:'Novecento Sans Web','sans-serif';
+		font-family:$accentFont;
 		&:hover{
-			background:#248a8b;
-			border:solid 1px #248a8b;
+			background:#248a83;
+			border:solid 1px #248a83;
 		}
 	}
 	
@@ -463,10 +463,10 @@ big {
 	a{
 	padding:.75rem 1.5rem;
 		color:white;
-		background:#248a8b;
+		background:#248a83;
 		text-decoration:none;
 		text-transform:uppercase;
-		font-family:'Novecento Sans Web','sans-serif';
+		font-family:$accentFont;
 		&:hover{
 			background:#1b6661;
 		}

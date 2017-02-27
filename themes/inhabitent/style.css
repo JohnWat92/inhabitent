@@ -330,28 +330,28 @@ big {
   text-transform: uppercase; }
 
 .home .navWrap #primary-menu {
-  font-family: 'Merriweather Web', 'sans-serif';
+  font-family: "Merriweather Web", "sans-serif";
   font-size: 1rem; }
 
 .home h2 {
-  font-family: 'Novecento Sans Web','sans-serif';
+  font-family: "Novecento Sans Web", "sans-serif";
   font-weight: normal;
   letter-spacing: 2px; }
 
 .shop-stuff-icons p {
-  font-family: 'Merriweather Web', 'sans-serif';
+  font-family: "Merriweather Web", "sans-serif";
   font-size: .9rem; }
 
 .shop-stuff-icons a {
-  font-family: 'Novecento Sans Web','sans-serif';
+  font-family: "Novecento Sans Web", "sans-serif";
   font-size: .9rem; }
 
 .home .entry-meta {
-  font-family: 'Merriweather Web', 'sans-serif';
+  font-family: "Merriweather Web", "sans-serif";
   font-size: .8rem; }
 
 .home .a-post-info p a {
-  font-family: 'Novecento Sans Web','sans-serif';
+  font-family: "Novecento Sans Web", "sans-serif";
   text-transform: uppercase;
   text-decoration: none;
   font-weight: bold;
@@ -361,59 +361,59 @@ big {
 
 .home .a-post-info .journalExcerpt a {
   font-size: .9rem;
-  font-family: 'Novecento Sans Web','sans-serif'; }
+  font-family: "Novecento Sans Web", "sans-serif"; }
 
 .site-info h3 {
-  font-family: 'Novecento Sans Web','sans-serif';
+  font-family: "Novecento Sans Web", "sans-serif";
   letter-spacing: 2px; }
 
 .site-info .info-hours p {
-  font-family: 'Merriweather Web', 'sans-serif';
+  font-family: "Merriweather Web", "sans-serif";
   font-size: .9rem; }
 
 .footerCopyRight {
-  font-family: 'Novecento Sans Web','sans-serif';
+  font-family: "Novecento Sans Web", "sans-serif";
   font-size: .9rem; }
 
 .date h1 {
   text-transform: uppercase;
-  font-family: 'Novecento Sans Web','sans-serif'; }
+  font-family: "Novecento Sans Web", "sans-serif"; }
 
 .page-header .page-title {
-  font-family: 'Novecento Sans Web','sans-serif'; }
+  font-family: "Novecento Sans Web", "sans-serif"; }
 
 .page-header .taxonomy-description {
-  font-family: 'Merriweather Web', 'sans-serif'; }
+  font-family: "Merriweather Web", "sans-serif"; }
 
 .shop-category .category a {
-  font-family: 'Novecento Sans Web','sans-serif'; }
+  font-family: "Novecento Sans Web", "sans-serif"; }
 
 .archive-info .productTitle {
-  font-family: 'Merriweather Web', 'sans-serif';
+  font-family: "Merriweather Web", "sans-serif";
   font-size: 1rem; }
 
 .archive-info .priceTag {
-  font-family: 'Merriweather Web', 'sans-serif';
+  font-family: "Merriweather Web", "sans-serif";
   font-size: .9rem; }
 
 .blog .entry-title, .single-post .entry-title {
-  font-family: 'Novecento Sans Web','sans-serif';
+  font-family: "Novecento Sans Web", "sans-serif";
   font-weight: bold; }
 
 .blog .entry-meta, .single-post .entry-meta {
-  font-family: 'Novecento Sans Web','sans-serif'; }
+  font-family: "Novecento Sans Web", "sans-serif"; }
 
 .blog .entry-content, .single-post .entry-content {
-  font-family: 'Merriweather Web', 'sans-serif'; }
+  font-family: "Merriweather Web", "sans-serif"; }
 
 .blog .read-more, .single-post .read-more {
-  font-family: 'Novecento Sans Web','sans-serif'; }
+  font-family: "Novecento Sans Web", "sans-serif"; }
 
 .blog .entry-footer, .single-post .entry-footer {
-  font-family: 'Novecento Sans Web','sans-serif'; }
+  font-family: "Novecento Sans Web", "sans-serif"; }
 
 .page-template-about h1, .page-template-about h2 {
-  font-family: 'Novecento Sans Web','sans-serif';
+  font-family: "Novecento Sans Web", "sans-serif";
   font-weight: bold;
   letter-spacing: 2px; }
 
@@ -424,10 +424,10 @@ big {
   font-size: 2.1rem; }
 
 .page-template-about .p1 {
-  font-family: 'Merriweather Web', 'sans-serif'; }
+  font-family: "Merriweather Web", "sans-serif"; }
 
 .page-id-71 h1, .page-id-71 h2 {
-  font-family: 'Novecento Sans Web','sans-serif';
+  font-family: "Novecento Sans Web", "sans-serif";
   font-weight: bold;
   letter-spacing: 2px; }
 
@@ -439,176 +439,176 @@ big {
   color: #2f1339; }
 
 .page-id-71 .entry-content p {
-  font-family: 'Merriweather Web', 'sans-serif';
+  font-family: "Merriweather Web", "sans-serif";
   margin-top: 0;
   margin-bottom: 0; }
 
 .page-id-71 .wpcf7 p {
   text-transform: uppercase;
-  font-family: 'Novecento Sans Web','sans-serif';
+  font-family: "Novecento Sans Web", "sans-serif";
   margin-bottom: 1rem; }
 
 .page-id-71 .wpcf7 .wpcf7-form-control {
   margin-top: .5rem; }
 
 .page-id-71 .wpcf7 .wpcf7-submit {
-  background: #248A8B;
+  background: #248a83;
   color: white;
   text-transform: uppercase;
-  font-family: 'Novecento Sans Web','sans-serif';
+  font-family: "Novecento Sans Web", "sans-serif";
   padding: .4rem 1.25rem;
   font-size: .9rem; }
   .page-id-71 .wpcf7 .wpcf7-submit:hover {
     background: #1b6661; }
 
 #secondary .widget-title {
-  font-family: 'Novecento Sans Web','sans-serif';
+  font-family: "Novecento Sans Web", "sans-serif";
   color: #2f1339;
   font-size: 1.5rem; }
 
 #secondary .textwidget {
-  font-family: 'Merriweather Web', 'sans-serif';
+  font-family: "Merriweather Web", "sans-serif";
   font-size: 1rem; }
   #secondary .textwidget a {
     text-decoration: none; }
 
 #secondary .biz-hours-widget-class p {
-  font-family: 'Merriweather Web', 'sans-serif'; }
+  font-family: "Merriweather Web", "sans-serif"; }
 
 #secondary .widget_archive a {
-  font-family: 'Merriweather Web', 'sans-serif'; }
+  font-family: "Merriweather Web", "sans-serif"; }
 
 .date .entry-title {
-  font-family: 'Novecento Sans Web','sans-serif';
+  font-family: "Novecento Sans Web", "sans-serif";
   font-weight: bold; }
 
 .date .entry-meta {
-  font-family: 'Novecento Sans Web','sans-serif'; }
+  font-family: "Novecento Sans Web", "sans-serif"; }
 
 .date .entry-content {
-  font-family: 'Merriweather Web', 'sans-serif'; }
+  font-family: "Merriweather Web", "sans-serif"; }
 
 .date .read-more {
-  font-family: 'Novecento Sans Web','sans-serif'; }
+  font-family: "Novecento Sans Web", "sans-serif"; }
 
 .single-products .entry-title {
   text-transform: uppercase;
-  font-family: 'Novecento Sans Web','sans-serif';
+  font-family: "Novecento Sans Web", "sans-serif";
   font-weight: bold;
   color: #d99054;
   letter-spacing: 2px; }
 
 .single-products .priceTag {
-  font-family: 'Novecento Sans Web','sans-serif';
+  font-family: "Novecento Sans Web", "sans-serif";
   font-size: 1.7rem; }
 
 .single-products .socialMediaButtons a {
   text-decoration: none;
   text-transform: uppercase;
-  font-family: 'Novecento Sans Web','sans-serif';
+  font-family: "Novecento Sans Web", "sans-serif";
   color: black;
   font-size: .8rem; }
   .single-products .socialMediaButtons a:hover {
-    background: #248a8b;
+    background: #248a83;
     color: white; }
 
 .single-products p {
-  font-family: 'Merriweather Web', 'sans-serif'; }
+  font-family: "Merriweather Web", "sans-serif"; }
 
 .single-post .socialMediaButtons a {
   text-decoration: none;
   text-transform: uppercase;
-  font-family: 'Novecento Sans Web','sans-serif';
+  font-family: "Novecento Sans Web", "sans-serif";
   color: black;
   font-size: .8rem; }
   .single-post .socialMediaButtons a:hover {
-    background: #248a8b;
+    background: #248a83;
     color: white; }
 
 .comments-title {
-  font-family: 'Novecento Sans Web','sans-serif';
+  font-family: "Novecento Sans Web", "sans-serif";
   font-weight: bold;
   color: #2f1339;
   text-transform: uppercase; }
 
 .comment-author {
-  font-family: 'Merriweather Web', 'sans-serif';
+  font-family: "Merriweather Web", "sans-serif";
   font-weight: bold;
   font-style: normal; }
 
 .comment-metadata {
-  font-family: 'Merriweather Web', 'sans-serif';
+  font-family: "Merriweather Web", "sans-serif";
   color: #808080; }
 
 .comment-content p {
-  font-family: 'Merriweather Web', 'sans-serif'; }
+  font-family: "Merriweather Web", "sans-serif"; }
 
 .comment-content .reply {
-  font-family: 'Merriweather Web', 'sans-serif'; }
+  font-family: "Merriweather Web", "sans-serif"; }
 
 #reply-title {
-  font-family: 'Novecento Sans Web','sans-serif';
+  font-family: "Novecento Sans Web", "sans-serif";
   letter-spacing: 2px;
   font-size: 1.5rem;
   color: #404040; }
 
 .comment-form-comment {
-  font-family: 'Novecento Sans Web','sans-serif';
+  font-family: "Novecento Sans Web", "sans-serif";
   font-size: 1rem;
   text-transform: uppercase; }
 
 .form-submit #submit {
-  background: #248A8B;
+  background: #248a83;
   color: white;
   text-transform: uppercase;
-  font-family: 'Novecento Sans Web','sans-serif';
+  font-family: "Novecento Sans Web", "sans-serif";
   padding: .4rem 1.25rem;
   font-size: .9rem; }
   .form-submit #submit:hover {
     background: #1b6661; }
 
 .error404 .page-title {
-  font-family: 'Novecento Sans Web','sans-serif';
+  font-family: "Novecento Sans Web", "sans-serif";
   font-weight: bold;
   text-transform: uppercase;
   font-size: 2rem;
   letter-spacing: 2px; }
 
 .error404 .page-content .widgettitle, .error404 .page-content .widget-title {
-  font-family: 'Novecento Sans Web','sans-serif';
+  font-family: "Novecento Sans Web", "sans-serif";
   font-weight: bold;
   color: #2f1339;
   text-transform: uppercase;
   letter-spacing: 2px; }
 
 .error404 .page-content ul a {
-  font-family: 'Merriweather Web', 'sans-serif'; }
+  font-family: "Merriweather Web", "sans-serif"; }
 
 .error404 .page-content p {
-  font-family: 'Merriweather Web', 'sans-serif'; }
+  font-family: "Merriweather Web", "sans-serif"; }
 
 .single-post .entry-meta a {
   color: white; }
 
 .page-template-about .entry-title {
-  font-family: 'Novecento Sans Web','sans-serif';
+  font-family: "Novecento Sans Web", "sans-serif";
   font-weight: bold; }
 
 .page-template-about .container h2 {
   color: #2f1339; }
 
 .home .adventureImages .longImageText {
-  font-family: 'Merriweather Web', 'sans-serif';
+  font-family: "Merriweather Web", "sans-serif";
   font-size: 3rem;
   color: white; }
 
 .home .adventureImages .wideImageText {
-  font-family: 'Merriweather Web', 'sans-serif';
+  font-family: "Merriweather Web", "sans-serif";
   font-size: 2.4rem;
   color: white; }
 
 .home .adventureImages .squareImageText {
-  font-family: 'Merriweather Web', 'sans-serif';
+  font-family: "Merriweather Web", "sans-serif";
   font-size: 1.5rem;
   color: white; }
 
@@ -628,20 +628,20 @@ big {
   text-decoration: none;
   text-transform: uppercase;
   font-size: .9rem;
-  font-family: 'Novecento Sans Web','sans-serif'; }
+  font-family: "Novecento Sans Web", "sans-serif"; }
   .home .adventureImages a:hover {
-    background: #248a8b;
-    border: solid 1px #248a8b; }
+    background: #248a83;
+    border: solid 1px #248a83; }
 
 .home .moreAdventures {
   margin-top: 2rem; }
   .home .moreAdventures a {
     padding: .75rem 1.5rem;
     color: white;
-    background: #248a8b;
+    background: #248a83;
     text-decoration: none;
     text-transform: uppercase;
-    font-family: 'Novecento Sans Web','sans-serif'; }
+    font-family: "Novecento Sans Web", "sans-serif"; }
     .home .moreAdventures a:hover {
       background: #1b6661; }
 
@@ -733,9 +733,6 @@ input[type="submit"] {
 
 .home .fa-search, .page-template-about .fa-search {
   color: white; }
-
-.fa-search {
-  color: #248A8B; }
 
 .search-form {
   padding-top: 1rem; }
@@ -1129,7 +1126,7 @@ h3 {
   text-transform: uppercase;
   margin-right: 30px; }
 
-.navContainer {
+.navContainer, .navContainer {
   width: 100vw;
   margin: 0 auto;
   display: -ms-flexbox;
@@ -1141,40 +1138,47 @@ h3 {
   -ms-flex-pack: center;
       justify-content: center;
   z-index: 1; }
-  .navContainer .navWrap {
+  .navContainer .navWrap, .navContainer .navWrap {
     display: -ms-flexbox;
     display: flex;
     -ms-flex-pack: justify;
         justify-content: space-between;
     width: 1120px; }
-    .navContainer .navWrap .tentLogo {
+    .navContainer .navWrap .tentLogo, .navContainer .navWrap .tentLogo {
       width: 45px;
       height: 30px;
       margin-top: .5rem;
       background-image: url(../../images/logos/inhabitent-logo-tent.svg);
       background-size: 100%;
       cursor: pointer; }
-    .navContainer .navWrap #site-navigation {
+    .navContainer .navWrap #site-navigation, .navContainer .navWrap #site-navigation {
       height: 50px; }
-    .navContainer .navWrap #primary-menu li {
+    .navContainer .navWrap #primary-menu li, .navContainer .navWrap #primary-menu li {
       padding: 1rem;
       text-transform: uppercase;
       font-family: Novocento, sans-serif; }
+  .navContainer .fa-search, .navContainer .fa-search {
+    color: #248A8B; }
 
-.home .navContainer, .page-template-about .navContainer {
+.reverse-header .navContainer {
   background: rgba(255, 255, 255, 0);
-  border-bottom: solid 0px lightgrey; }
-  .home .navContainer .navWrap, .page-template-about .navContainer .navWrap {
+  border-bottom: solid 0px lightgrey;
+  position: absolute; }
+  .reverse-header .navContainer .navWrap {
     width: 1120px; }
-    .home .navContainer .navWrap .tentLogo, .page-template-about .navContainer .navWrap .tentLogo {
+    .reverse-header .navContainer .navWrap .tentLogo {
       background-image: url(../../images/logos/inhabitent-logo-tent-white.svg); }
-    .home .navContainer .navWrap #site-navigation, .page-template-about .navContainer .navWrap #site-navigation {
+    .reverse-header .navContainer .navWrap #site-navigation {
       height: 50px; }
-    .home .navContainer .navWrap #primary-menu li, .page-template-about .navContainer .navWrap #primary-menu li {
+    .reverse-header .navContainer .navWrap #primary-menu li {
       padding: 1rem; }
-      .home .navContainer .navWrap #primary-menu li a, .page-template-about .navContainer .navWrap #primary-menu li a {
+      .reverse-header .navContainer .navWrap #primary-menu li a {
         color: White;
         text-transform: uppercase; }
+        .reverse-header .navContainer .navWrap #primary-menu li a:hover {
+          color: #f0e4d1; }
+    .reverse-header .navContainer .navWrap .fa-search {
+      color: white; }
 
 .site-content {
   padding-top: 50px;
@@ -1390,9 +1394,9 @@ object {
   text-transform: uppercase;
   margin-bottom: 1.1rem; }
   .home .journalExcerpt a:hover {
-    background: #248A8B;
+    background: #248a83;
     color: white;
-    border: solid 1px #248A8B; }
+    border: solid 1px #248a83; }
 
 .journal-3 {
   display: -ms-inline-flexbox;
@@ -1512,7 +1516,7 @@ object {
         margin: .1rem;
         border: solid 1px  black; }
         .singleContentWrapper .entry-content .socialMediaButtons a:hover {
-          border: solid 1px  #248a8b; }
+          border: solid 1px  #248a83; }
   .singleContentWrapper .entry-header {
     margin-right: 2.5rem;
     margin-left: .5rem; }
@@ -1528,7 +1532,7 @@ object {
     margin-top: 1rem;
     border: solid 1px  black; }
     .single-post .socialMediaButtons a:hover {
-      border: solid 1px  #248a8b; }
+      border: solid 1px  #248a83; }
 
 .single-post .entry-footer {
   padding-bottom: 1rem; }

@@ -5,7 +5,7 @@
  * Description: Page template without sidebar
  */
 
-get_header(); ?>
+get_header('home'); ?>
 
 	<div id="primary" class="site-content">
 		<main id="main" class="site-main" role="main">

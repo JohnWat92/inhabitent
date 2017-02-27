@@ -1,5 +1,5 @@
 
-.navContainer{
+.navContainer,.navContainer{
     width:100vw;
     margin: 0 auto;
     display:flex;
@@ -34,14 +34,17 @@
             font-family: Novocento, sans-serif;
         }
     }
+    .fa-search{
+	color:#248A8B;
+}
 }
 //Home Navigation Bar Styling
-.home .navContainer, .page-template-about .navContainer{
+.reverse-header .navContainer{
         background:rgba(255,255,255,0);
         border-bottom:solid 0px lightgrey;
+        position:absolute;
 
     .navWrap{
-       
         width: 1120px;
         .tentLogo{
             background-image: url(../../images/logos/inhabitent-logo-tent-white.svg);
@@ -54,8 +57,14 @@
             a{
                 color:White;
                 text-transform: uppercase;
+                &:hover{
+                    color:#f0e4d1 ;
+                }
             }
         }
+        .fa-search{
+	color:white;
+    }
     }
 }
 //About Page CSS Styling
