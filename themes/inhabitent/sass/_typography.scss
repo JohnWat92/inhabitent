@@ -472,3 +472,32 @@ big {
 		}
 	}
 }
+//search
+.search{
+	.page-title{
+		text-transform:uppercase;
+		font-family:$accentFont;
+	}
+	.entry-title{
+		margin-top:3rem;
+		text-transform:uppercase;
+		font-family:$accentFont;
+		font-size:2rem;
+		a{
+		text-decoration:none;
+		}
+	}
+	.entry-summary{
+		font-family: $normalFont;
+		line-height:1.75;
+		a{
+			text-decoration:none;
+			color:black;
+			font-family:$accentFont;
+			border: solid 1px black;
+			padding: .5rem 1.5rem;
+			text-transform:uppercase;
+			margin-bottom:2rem;
+		}
+	}
+}

@@ -645,6 +645,30 @@ big {
     .home .moreAdventures a:hover {
       background: #1b6661; }
 
+.search .page-title {
+  text-transform: uppercase;
+  font-family: "Novecento Sans Web", "sans-serif"; }
+
+.search .entry-title {
+  margin-top: 3rem;
+  text-transform: uppercase;
+  font-family: "Novecento Sans Web", "sans-serif";
+  font-size: 2rem; }
+  .search .entry-title a {
+    text-decoration: none; }
+
+.search .entry-summary {
+  font-family: "Merriweather Web", "sans-serif";
+  line-height: 1.75; }
+  .search .entry-summary a {
+    text-decoration: none;
+    color: black;
+    font-family: "Novecento Sans Web", "sans-serif";
+    border: solid 1px black;
+    padding: .5rem 1.5rem;
+    text-transform: uppercase;
+    margin-bottom: 2rem; }
+
 /*--------------------------------------------------------------
 # Elements
 --------------------------------------------------------------*/
@@ -759,7 +783,7 @@ textarea {
   input[type="password"]:focus,
   input[type="search"]:focus,
   textarea:focus {
-    color: white; }
+    color: black; }
 
 input[type="text"],
 input[type="email"],
@@ -1267,7 +1291,7 @@ object {
 # Page Templates
 --------------------------------------------------------------*/
 /* Front page */
-.blog .content-area, .single-post .content-area, .date .content-area, .error404 .content-area {
+.blog .content-area, .single-post .content-area, .date .content-area, .error404 .content-area, .search .content-area {
   width: 70%;
   padding-right: 3rem; }
 
@@ -1276,7 +1300,7 @@ object {
   width: 30%;
   padding: 2.5rem; }
 
-.single .site-content, .error404 .site-content {
+.single .site-content, .error404 .site-content, .search .site-content {
   width: 1120px;
   margin-left: auto;
   margin-right: auto; }
@@ -1579,3 +1603,7 @@ object {
   width: 800px; }
   .page-template-about .container h2 {
     text-align: center; }
+
+.search .page-title {
+  border-bottom: solid 1px lightgrey;
+  padding-bottom: 1rem; }

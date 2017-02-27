@@ -4,7 +4,7 @@
 
 /* Front page */
 
-.blog .content-area, .single-post .content-area, .date .content-area, .error404 .content-area{
+.blog .content-area, .single-post .content-area, .date .content-area, .error404 .content-area, .search .content-area{
 	width:70%;
 	padding-right:3rem;
 }
@@ -13,7 +13,7 @@
 	width:30%;
 	padding:2.5rem;
 }
-.single .site-content, .error404 .site-content{
+.single .site-content, .error404 .site-content, .search .site-content{
 	width:1120px;
 	margin-left: auto;
 	margin-right:auto;
@@ -390,35 +390,11 @@
 	}
 
 }
+//search page
+.search{
+	.page-title{
+		border-bottom: solid 1px lightgrey;
+		padding-bottom:1rem;
+	}
 
-//  @mixin reverse-header {
-//             background-color: transparent;
-//             border: none;
-//             a {
-//                 color: #fff;
-//                 &:hover {
-//                     color: $color__orange;
-//                 }
-//             }
-//         h1 {
-//         background: url(../../images/inhabitent-logo-tent-white.svg) no-repeat;
-//         background-size: 50px 33px;
-//         height: 33px;
-//         margin: 0;
-//         width: 50px;
-//         overflow: hidden;
-//         text-indent: 100%;
-//         }
-//         label {
-//             color: $color__orange;
-//         }
-//         .search-field {
-//             background: transparent;
-//             color: $color__orange;
-//         }
-//         }
-// 		   .home {
-//         .site-header {
-//             @include reverse-header;
-//             }
-// 		   }
+}
