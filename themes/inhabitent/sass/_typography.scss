@@ -85,7 +85,7 @@ big {
 .shop-stuff-icons {
 	p{
 	font-family: 'Merriweather Web', 'sans-serif';
-	font-size:1rem;
+	font-size:.9rem;
 	}
 	a{
 		font-family:  'Novecento Sans Web','sans-serif';	
@@ -329,3 +329,49 @@ big {
 			font-family: 'Merriweather Web', 'sans-serif';
 		}
 	}
+	#reply-title{
+		font-family:  'Novecento Sans Web','sans-serif';
+		letter-spacing:2px;
+		font-size:1.5rem;
+	}
+	.comment-form-comment{
+		font-family:  'Novecento Sans Web','sans-serif';
+		font-size:1rem;
+		text-transform:uppercase;
+	}
+	.form-submit{
+		#submit{
+			background:#248A8B;
+			color:white;
+			text-transform: uppercase;
+			font-family:  'Novecento Sans Web','sans-serif';
+			padding:.4rem 1.25rem;
+			font-size:.9rem;
+
+		}
+	}
+//ERROR 404 PAGE STYLING
+.error404{
+	.page-title {
+		font-family:  'Novecento Sans Web','sans-serif';
+		font-weight:bold;
+		text-transform: uppercase;
+		font-size:2rem;
+		letter-spacing:2px;
+	}
+}
+.error404 .page-content{
+	.widgettitle, .widget-title{
+		font-family:  'Novecento Sans Web','sans-serif';
+		font-weight:bold;
+		color:#2f1339;
+		text-transform:uppercase;
+		letter-spacing:2px;
+	}
+	ul a{
+		font-family: 'Merriweather Web', 'sans-serif';
+	}
+	p{
+		font-family: 'Merriweather Web', 'sans-serif';
+	}
+}

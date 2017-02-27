@@ -340,7 +340,7 @@ big {
 
 .shop-stuff-icons p {
   font-family: 'Merriweather Web', 'sans-serif';
-  font-size: 1rem; }
+  font-size: .9rem; }
 
 .shop-stuff-icons a {
   font-family: 'Novecento Sans Web','sans-serif';
@@ -526,6 +526,44 @@ big {
 .comment-content .reply {
   font-family: 'Merriweather Web', 'sans-serif'; }
 
+#reply-title {
+  font-family: 'Novecento Sans Web','sans-serif';
+  letter-spacing: 2px;
+  font-size: 1.5rem; }
+
+.comment-form-comment {
+  font-family: 'Novecento Sans Web','sans-serif';
+  font-size: 1rem;
+  text-transform: uppercase; }
+
+.form-submit #submit {
+  background: #248A8B;
+  color: white;
+  text-transform: uppercase;
+  font-family: 'Novecento Sans Web','sans-serif';
+  padding: .4rem 1.25rem;
+  font-size: .9rem; }
+
+.error404 .page-title {
+  font-family: 'Novecento Sans Web','sans-serif';
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 2rem;
+  letter-spacing: 2px; }
+
+.error404 .page-content .widgettitle, .error404 .page-content .widget-title {
+  font-family: 'Novecento Sans Web','sans-serif';
+  font-weight: bold;
+  color: #2f1339;
+  text-transform: uppercase;
+  letter-spacing: 2px; }
+
+.error404 .page-content ul a {
+  font-family: 'Merriweather Web', 'sans-serif'; }
+
+.error404 .page-content p {
+  font-family: 'Merriweather Web', 'sans-serif'; }
+
 /*--------------------------------------------------------------
 # Elements
 --------------------------------------------------------------*/
@@ -595,19 +633,8 @@ button,
 input[type="button"],
 input[type="reset"],
 input[type="submit"] {
-  border: 1px solid;
-  border-color: #ccc #ccc #bbb;
-  border-radius: 3px;
-  background: #e6e6e6;
   background: transparent;
-  border: solid transparent;
-  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.5), inset 0 15px 17px rgba(255, 255, 255, 0.5), inset 0 -5px 12px rgba(0, 0, 0, 0.05);
-  color: rgba(0, 0, 0, 0.8);
-  font-size: 12px;
-  font-size: 0.75rem;
-  line-height: 1;
-  padding: .6rem 1rem .4rem;
-  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.8); }
+  border: solid transparent; }
   button:hover .icon-search,
   input[type="button"]:hover .icon-search,
   input[type="reset"]:hover .icon-search,
@@ -645,9 +672,9 @@ input[type="url"],
 input[type="password"],
 input[type="search"],
 textarea {
-  color: white;
+  color: black;
   border: 1px solid #ccc;
-  border-radius: 3px; }
+  background: #f4f4f4; }
   input[type="text"]:focus,
   input[type="email"]:focus,
   input[type="url"]:focus,
@@ -1097,22 +1124,16 @@ object {
 # Page Templates
 --------------------------------------------------------------*/
 /* Front page */
-.blog .content-area, .single-post .content-area, .date .content-area {
+.blog .content-area, .single-post .content-area, .date .content-area, .error404 .content-area {
   width: 70%;
-  padding-right: 3rem;
-  padding-left: 6rem; }
+  padding-right: 3rem; }
 
 .widget-area {
   border-left: solid 1px lightgrey;
   width: 30%;
   padding: 2.5rem; }
 
-.single .site-content {
-  width: 1120px;
-  margin-left: auto;
-  margin-right: auto; }
-
-.page-template .site-content {
+.single .site-content, .page-template .site-content, .error404 .site-content {
   width: 1120px;
   margin-left: auto;
   margin-right: auto; }
@@ -1272,6 +1293,9 @@ object {
 .post .entry-header {
   position: relative;
   margin-top: 2.5rem; }
+  .post .entry-header img {
+    width: 760px;
+    height: 520px; }
 
 .page-id-71 .site-content {
   max-width: 1120px;
@@ -1349,7 +1373,8 @@ object {
         .singleContentWrapper .entry-content .socialMediaButtons a:hover {
           border: solid 1px  #248a8b; }
   .singleContentWrapper .entry-header {
-    margin: 0 3rem; }
+    margin-right: 2.5rem;
+    margin-left: .5rem; }
 
 .single-post .socialMediaButtons {
   display: -ms-inline-flexbox;
@@ -1393,3 +1418,6 @@ object {
 
 .comment-respond {
   border-top: solid 1px lightgrey; }
+
+.textwidget i {
+  width: 25px; }
