@@ -215,6 +215,31 @@ big {
 	}
 	.entry-content p{
 		font-family: 'Merriweather Web', 'sans-serif';
+		margin-top:0;
+		margin-bottom:0;
+	}
+	.wpcf7{
+		p{
+			text-transform: uppercase;
+			font-family:  'Novecento Sans Web','sans-serif';
+			margin-bottom:1rem;
+
+		}
+		.wpcf7-form-control{
+			margin-top:.5rem;
+		}
+		.wpcf7-submit{
+			background:#248A8B;
+			color:white;
+			text-transform: uppercase;
+			font-family:  'Novecento Sans Web','sans-serif';
+			padding:.4rem 1.25rem;
+			font-size:.9rem;
+			&:hover{
+				background:#1b6661;
+			}
+
+		}
 	}
 }
 //WIDGET STYLING
@@ -333,6 +358,7 @@ big {
 		font-family:  'Novecento Sans Web','sans-serif';
 		letter-spacing:2px;
 		font-size:1.5rem;
+		color:#404040;
 	}
 	.comment-form-comment{
 		font-family:  'Novecento Sans Web','sans-serif';
@@ -347,6 +373,9 @@ big {
 			font-family:  'Novecento Sans Web','sans-serif';
 			padding:.4rem 1.25rem;
 			font-size:.9rem;
+			&:hover{
+				background:#1b6661;
+			}
 
 		}
 	}
@@ -373,5 +402,18 @@ big {
 	}
 	p{
 		font-family: 'Merriweather Web', 'sans-serif';
+	}
+}
+//ABOUT PAGE   
+.single-post .entry-meta a{
+	color:white;
+}
+.page-template-about{
+	.entry-title{
+		font-family:  'Novecento Sans Web','sans-serif';
+		font-weight:bold;
+	}
+	.container h2{
+		color:#2f1339;
 	}
 }
