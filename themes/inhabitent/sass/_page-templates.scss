@@ -148,7 +148,7 @@
 	.a-post{
 		border: solid 1px lightgrey;
 		margin: .75rem;
-		flex: 0 1 30%;
+		flex: 0 1 32%;
 		
 		.a-post-image{
 			border-bottom:solid 5px lightgrey;
@@ -187,6 +187,7 @@
 }	
 .journal-3{
 	display:inline-flex;
+	justify-content: space-between;
 	width:1120px;
 }
 .home .entry-header .entry-title{

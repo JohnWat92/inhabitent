@@ -129,3 +129,125 @@
 	width:100vw;
 	margin:0 auto;
 }
+//adventures logos
+// .adventureImages{
+// 	display:flex;
+// 	width:1080px;
+// 	box-sizing: border-box;
+// 	height:540px;
+// }
+// .leftbox, .rightBox{
+// 	height:540px;
+// 	width:540px;
+// }
+
+// .rightBox{
+// 	display:flex;
+// 	flex-wrap: wrap;
+// 		background: linear-gradient( to bottom, rgba(0,0,0,0.4) 0%, rgba(0,0,0,0.4) 100% );
+// }
+// .longImage {
+// 	width:540px;
+// 	height:540px;
+// 	margin-right:1rem;
+// 	img{
+// 		object-fit: cover;
+// 		height:100%;
+// 			z-index:-1;
+// 	}
+// }
+// .wideImage {
+
+// 	width:100%;
+// 	height:50%;
+// 	padding-bottom:.5rem;
+// 	img{
+// 		object-fit: cover;
+// 		height:100%;
+// 		width:100%;
+// 		z-index:-1;
+// 	}
+// }
+// .squareImage {
+// 	padding-top:.5rem;
+// 	width:50%;
+// 	height:50%;
+// 	img{
+// 		object-fit: cover;
+// 		height:100%;
+// 		width:100%;
+// 			z-index:-1;
+// 	}
+// }
+// .rightBoxLeftImage{
+// 	padding-right:.5rem;
+// }
+// .rightBoxRightImage{
+// 	padding-left:.5rem;
+// }
+
+.adventureImages{
+	display:flex;
+	width:1080px;
+	box-sizing: border-box;
+	height:540px;
+}
+.leftbox, .rightBox{
+	height:540px;
+	width:540px;
+}
+
+.rightBox{
+	display:flex;
+	flex-wrap: wrap;
+	
+}
+.longImage {
+	width:540px;
+	height:540px;
+	background: linear-gradient( to bottom, rgba(0,0,0,0.4) 0%, rgba(0,0,0,0.4) 100% ),
+	url(../../images/adventure-photos/canoe-girl.jpg) no-repeat center;
+	background-size:cover, cover;
+	margin-right:1.35rem;
+	
+}
+.wideImage {
+	background: linear-gradient( to bottom, rgba(0,0,0,0.4) 0%, rgba(0,0,0,0.4) 100% ),
+	url(../../images/adventure-photos/beach-bonfire.jpg) no-repeat center;
+	background-size:cover, cover;
+	width:100%;
+	height:48%;
+	margin-bottom:2%;
+
+}
+.squareImage {
+	width:48%;
+	height:48%;
+	margin-top:2%;
+}
+.rightBoxLeftImage{
+	background: linear-gradient( to bottom, rgba(0,0,0,0.4) 0%, rgba(0,0,0,0.4) 100% ),
+	url(../../images/adventure-photos/mountain-hikers.jpg) no-repeat center;
+	background-size:cover, cover;
+	margin-right:2%;
+
+}
+.rightBoxRightImage{
+	background: linear-gradient( to bottom, rgba(0,0,0,0.4) 0%, rgba(0,0,0,0.4) 100% ),
+	url(../../images/adventure-photos/night-sky.jpg) no-repeat center;
+	background-size:cover, cover;
+	margin-left:2%;
+
+}
+.longImage{
+	position:relative
+}
+.longImageContent{
+	position:absolute;
+}
+.wideImage{
+	position:relative;
+}
+.wideImageContent{
+	position:absolute;
+}
