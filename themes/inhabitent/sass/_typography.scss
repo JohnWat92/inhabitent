@@ -498,6 +498,11 @@ big {
 			padding: .5rem 1.5rem;
 			text-transform:uppercase;
 			margin-bottom:2rem;
+			&:hover{
+				border:solid 1px #248a83;
+				background:#248a83;
+				color:white;
+			}
 		}
 	}
 }

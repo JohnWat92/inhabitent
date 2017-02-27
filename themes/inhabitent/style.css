@@ -668,6 +668,10 @@ big {
     padding: .5rem 1.5rem;
     text-transform: uppercase;
     margin-bottom: 2rem; }
+    .search .entry-summary a:hover {
+      border: solid 1px #248a83;
+      background: #248a83;
+      color: white; }
 
 /*--------------------------------------------------------------
 # Elements
@@ -1291,7 +1295,7 @@ object {
 # Page Templates
 --------------------------------------------------------------*/
 /* Front page */
-.blog .content-area, .single-post .content-area, .date .content-area, .error404 .content-area, .search .content-area {
+.blog .content-area, .single-post .content-area, .date .content-area, .error404 .content-area, .search .content-area, .page-id-71 .content-area {
   width: 70%;
   padding-right: 3rem; }
 
