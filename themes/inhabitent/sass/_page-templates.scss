@@ -331,3 +331,57 @@
 		margin: 0 3rem;
 	}
 }
+.single-post .socialMediaButtons{
+			display:inline-flex;
+			i{
+			width:20px;
+			}
+			a{
+				padding:.6rem 1.25rem;
+				margin:.1rem;
+				margin-top:1rem;
+				border:solid 1px  black;
+				&:hover{
+					border:solid 1px  #248a8b;
+				}
+			}
+		}
+
+
+.single-post .entry-footer{
+	padding-bottom:1rem;
+}
+// COMMENTS STUFF
+.comments-title{
+		font-size:2rem;
+		letter-spacing: 2px;
+
+}
+.comment-body{
+	display:inline-flex;
+	padding-bottom:.5rem;
+	.comment-content{
+		padding-left:1rem;
+		
+	}
+}
+.children{
+	// border-top: solid 1px lightgrey;
+	padding-top:1rem;
+	margin-left:4rem;
+	margin-bottom:1rem;
+}
+.comment-list{
+	.parent{
+		padding-top:0;
+		border-top:solid 0px lightgrey;
+	}
+}
+
+.comment{
+	border-top:solid 1px lightgrey;
+	padding-top:1rem;
+}
+.comment-respond{
+	border-top:solid 1px lightgrey;
+}

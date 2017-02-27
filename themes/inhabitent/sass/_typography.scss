@@ -163,7 +163,7 @@ big {
 	}
 }
 //JOURNAL PAGEEEEEE
-.blog {
+.blog, .single-post {
 	.entry-title{	
 	font-family:  'Novecento Sans Web','sans-serif';
 	font-weight: bold;
@@ -175,6 +175,9 @@ big {
 		font-family: 'Merriweather Web', 'sans-serif';
 	}
 	.read-more{
+		font-family:  'Novecento Sans Web','sans-serif';
+	}
+	.entry-footer{
 		font-family:  'Novecento Sans Web','sans-serif';
 	}
 }
@@ -286,3 +289,43 @@ big {
 			font-family: 'Merriweather Web', 'sans-serif';
 	}
 }
+.single-post .socialMediaButtons{
+		
+		a{
+			text-decoration:none;
+			text-transform:uppercase;
+			font-family:  'Novecento Sans Web','sans-serif';
+			color:black;
+			font-size:.8rem;
+			&:hover{
+			background:#248a8b;
+			color:white;
+			}
+		
+		}
+		
+	}
+	//COMMENT SECTION 
+	.comments-title{
+		font-family:  'Novecento Sans Web','sans-serif';
+		font-weight:bold;
+		color:#2f1339;
+		text-transform:uppercase;
+	}
+	.comment-author{
+		font-family: 'Merriweather Web', 'sans-serif';
+		font-weight:bold;
+		font-style: normal;
+	}
+	.comment-metadata{
+		font-family: 'Merriweather Web', 'sans-serif';
+		color:#808080;
+	}
+	.comment-content{
+		p{
+			font-family: 'Merriweather Web', 'sans-serif';
+		}
+		.reply{
+			font-family: 'Merriweather Web', 'sans-serif';
+		}
+	}

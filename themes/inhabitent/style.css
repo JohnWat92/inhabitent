@@ -396,17 +396,20 @@ big {
   font-family: 'Merriweather Web', 'sans-serif';
   font-size: .9rem; }
 
-.blog .entry-title {
+.blog .entry-title, .single-post .entry-title {
   font-family: 'Novecento Sans Web','sans-serif';
   font-weight: bold; }
 
-.blog .entry-meta {
+.blog .entry-meta, .single-post .entry-meta {
   font-family: 'Novecento Sans Web','sans-serif'; }
 
-.blog .entry-content {
+.blog .entry-content, .single-post .entry-content {
   font-family: 'Merriweather Web', 'sans-serif'; }
 
-.blog .read-more {
+.blog .read-more, .single-post .read-more {
+  font-family: 'Novecento Sans Web','sans-serif'; }
+
+.blog .entry-footer, .single-post .entry-footer {
   font-family: 'Novecento Sans Web','sans-serif'; }
 
 .page-template-about h1, .page-template-about h2 {
@@ -492,6 +495,37 @@ big {
 .single-products p {
   font-family: 'Merriweather Web', 'sans-serif'; }
 
+.single-post .socialMediaButtons a {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: 'Novecento Sans Web','sans-serif';
+  color: black;
+  font-size: .8rem; }
+  .single-post .socialMediaButtons a:hover {
+    background: #248a8b;
+    color: white; }
+
+.comments-title {
+  font-family: 'Novecento Sans Web','sans-serif';
+  font-weight: bold;
+  color: #2f1339;
+  text-transform: uppercase; }
+
+.comment-author {
+  font-family: 'Merriweather Web', 'sans-serif';
+  font-weight: bold;
+  font-style: normal; }
+
+.comment-metadata {
+  font-family: 'Merriweather Web', 'sans-serif';
+  color: #808080; }
+
+.comment-content p {
+  font-family: 'Merriweather Web', 'sans-serif'; }
+
+.comment-content .reply {
+  font-family: 'Merriweather Web', 'sans-serif'; }
+
 /*--------------------------------------------------------------
 # Elements
 --------------------------------------------------------------*/
@@ -561,13 +595,33 @@ button,
 input[type="button"],
 input[type="reset"],
 input[type="submit"] {
+  border: 1px solid;
+  border-color: #ccc #ccc #bbb;
+  border-radius: 3px;
+  background: #e6e6e6;
   background: transparent;
-  border: solid transparent; }
+  border: solid transparent;
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.5), inset 0 15px 17px rgba(255, 255, 255, 0.5), inset 0 -5px 12px rgba(0, 0, 0, 0.05);
+  color: rgba(0, 0, 0, 0.8);
+  font-size: 12px;
+  font-size: 0.75rem;
+  line-height: 1;
+  padding: .6rem 1rem .4rem;
+  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.8); }
   button:hover .icon-search,
   input[type="button"]:hover .icon-search,
   input[type="reset"]:hover .icon-search,
   input[type="submit"]:hover .icon-search {
     color: red; }
+  button:active, button:focus,
+  input[type="button"]:active,
+  input[type="button"]:focus,
+  input[type="reset"]:active,
+  input[type="reset"]:focus,
+  input[type="submit"]:active,
+  input[type="submit"]:focus {
+    border-color: #aaa #bbb #bbb;
+    box-shadow: inset 0 -1px 0 rgba(255, 255, 255, 0.5), inset 0 2px 5px rgba(0, 0, 0, 0.15); }
 
 .home .fa-search {
   color: white; }
@@ -592,6 +646,7 @@ input[type="password"],
 input[type="search"],
 textarea {
   color: white;
+  border: 1px solid #ccc;
   border-radius: 3px; }
   input[type="text"]:focus,
   input[type="email"]:focus,
@@ -618,8 +673,6 @@ textarea {
 /* Links */
 a {
   color: #248A83; }
-  a:visited {
-    color: #248A83; }
   a:hover, a:focus, a:active {
     color: midnightblue; }
   a:focus {
@@ -1297,3 +1350,46 @@ object {
           border: solid 1px  #248a8b; }
   .singleContentWrapper .entry-header {
     margin: 0 3rem; }
+
+.single-post .socialMediaButtons {
+  display: -ms-inline-flexbox;
+  display: inline-flex; }
+  .single-post .socialMediaButtons i {
+    width: 20px; }
+  .single-post .socialMediaButtons a {
+    padding: .6rem 1.25rem;
+    margin: .1rem;
+    margin-top: 1rem;
+    border: solid 1px  black; }
+    .single-post .socialMediaButtons a:hover {
+      border: solid 1px  #248a8b; }
+
+.single-post .entry-footer {
+  padding-bottom: 1rem; }
+
+.comments-title {
+  font-size: 2rem;
+  letter-spacing: 2px; }
+
+.comment-body {
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  padding-bottom: .5rem; }
+  .comment-body .comment-content {
+    padding-left: 1rem; }
+
+.children {
+  padding-top: 1rem;
+  margin-left: 4rem;
+  margin-bottom: 1rem; }
+
+.comment-list .parent {
+  padding-top: 0;
+  border-top: solid 0px lightgrey; }
+
+.comment {
+  border-top: solid 1px lightgrey;
+  padding-top: 1rem; }
+
+.comment-respond {
+  border-top: solid 1px lightgrey; }

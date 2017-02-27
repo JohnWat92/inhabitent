@@ -29,9 +29,15 @@
 				'after'  => '</div>',
 			) );
 		?>
+		
 	</div><!-- .entry-content -->
 
 	<footer class="entry-footer">
 		<?php red_starter_entry_footer(); ?>
 	</footer> <!-- .entry-footer -->
+	<div class = "socialMediaButtons">
+				<p><a href=""><i class = "fa fa-facebook"></i> like </a>
+				<p><a href=""><i class = "fa fa-twitter"></i> tweet </a>
+				<p><a href=""><i class = "fa fa-pinterest"></i> pin </a>
+			</div>
 </article><!-- #post-## -->
