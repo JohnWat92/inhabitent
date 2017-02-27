@@ -21,6 +21,7 @@
 	</header><!-- .entry-header -->
 
 	<div class="entry-content">
+		<!--<?php echo CFS()->get('price');?>-->
 		<?php the_content(); ?>
 		<?php
 			wp_link_pages( array(
@@ -30,7 +31,7 @@
 		?>
 	</div><!-- .entry-content -->
 
-	<!--<footer class="entry-footer">
+	<footer class="entry-footer">
 		<?php red_starter_entry_footer(); ?>
-	</footer> .entry-footer -->
+	</footer> <!-- .entry-footer -->
 </article><!-- #post-## -->

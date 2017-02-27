@@ -330,7 +330,8 @@ big {
   text-transform: uppercase; }
 
 .home .navWrap #primary-menu {
-  font-family: 'Merriweather Web', 'sans-serif'; }
+  font-family: 'Merriweather Web', 'sans-serif';
+  font-size: 1rem; }
 
 .home h2 {
   font-family: 'Novecento Sans Web','sans-serif';
@@ -339,7 +340,7 @@ big {
 
 .shop-stuff-icons p {
   font-family: 'Merriweather Web', 'sans-serif';
-  font-size: .9rem; }
+  font-size: 1rem; }
 
 .shop-stuff-icons a {
   font-family: 'Novecento Sans Web','sans-serif';
@@ -347,7 +348,7 @@ big {
 
 .home .entry-meta {
   font-family: 'Merriweather Web', 'sans-serif';
-  font-size: .7rem; }
+  font-size: .8rem; }
 
 .home .a-post-info p a {
   font-family: 'Novecento Sans Web','sans-serif';
@@ -359,7 +360,7 @@ big {
   line-height: 1; }
 
 .home .a-post-info .journalExcerpt a {
-  font-size: .8rem;
+  font-size: .9rem;
   font-family: 'Novecento Sans Web','sans-serif'; }
 
 .site-info h3 {
@@ -378,8 +379,118 @@ big {
   text-transform: uppercase;
   font-family: 'Novecento Sans Web','sans-serif'; }
 
-.page-header {
+.page-header .page-title {
   font-family: 'Novecento Sans Web','sans-serif'; }
+
+.page-header .taxonomy-description {
+  font-family: 'Merriweather Web', 'sans-serif'; }
+
+.shop-category .category a {
+  font-family: 'Novecento Sans Web','sans-serif'; }
+
+.archive-info .productTitle {
+  font-family: 'Merriweather Web', 'sans-serif';
+  font-size: 1rem; }
+
+.archive-info .priceTag {
+  font-family: 'Merriweather Web', 'sans-serif';
+  font-size: .9rem; }
+
+.blog .entry-title {
+  font-family: 'Novecento Sans Web','sans-serif';
+  font-weight: bold; }
+
+.blog .entry-meta {
+  font-family: 'Novecento Sans Web','sans-serif'; }
+
+.blog .entry-content {
+  font-family: 'Merriweather Web', 'sans-serif'; }
+
+.blog .read-more {
+  font-family: 'Novecento Sans Web','sans-serif'; }
+
+.page-template-about h1, .page-template-about h2 {
+  font-family: 'Novecento Sans Web','sans-serif';
+  font-weight: bold;
+  letter-spacing: 2px; }
+
+.page-template-about h1 {
+  font-size: 2.4rem; }
+
+.page-template-about h2 {
+  font-size: 2.1rem; }
+
+.page-template-about .p1 {
+  font-family: 'Merriweather Web', 'sans-serif'; }
+
+.page-id-71 h1, .page-id-71 h2 {
+  font-family: 'Novecento Sans Web','sans-serif';
+  font-weight: bold;
+  letter-spacing: 2px; }
+
+.page-id-71 h1 {
+  font-size: 2.4rem; }
+
+.page-id-71 h2 {
+  font-size: 2.1rem;
+  color: #2f1339; }
+
+.page-id-71 .entry-content p {
+  font-family: 'Merriweather Web', 'sans-serif'; }
+
+#secondary .widget-title {
+  font-family: 'Novecento Sans Web','sans-serif';
+  color: #2f1339;
+  font-size: 1.5rem; }
+
+#secondary .textwidget {
+  font-family: 'Merriweather Web', 'sans-serif';
+  font-size: 1rem; }
+  #secondary .textwidget a {
+    text-decoration: none; }
+
+#secondary .biz-hours-widget-class p {
+  font-family: 'Merriweather Web', 'sans-serif'; }
+
+#secondary .widget_archive a {
+  font-family: 'Merriweather Web', 'sans-serif'; }
+
+.date .entry-title {
+  font-family: 'Novecento Sans Web','sans-serif';
+  font-weight: bold; }
+
+.date .entry-meta {
+  font-family: 'Novecento Sans Web','sans-serif'; }
+
+.date .entry-content {
+  font-family: 'Merriweather Web', 'sans-serif'; }
+
+.date .read-more {
+  font-family: 'Novecento Sans Web','sans-serif'; }
+
+.single-products .entry-title {
+  text-transform: uppercase;
+  font-family: 'Novecento Sans Web','sans-serif';
+  font-weight: bold;
+  color: #d99054;
+  letter-spacing: 2px; }
+
+.single-products .priceTag {
+  font-family: 'Novecento Sans Web','sans-serif';
+  font-size: 1.7rem; }
+
+.single-products .socialMediaButtons a {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: 'Novecento Sans Web','sans-serif';
+  color: black;
+  font-size: .8rem; }
+  .single-products .socialMediaButtons a:hover {
+    background: #248a8b;
+    color: white; }
+
+.single-products p {
+  font-family: 'Merriweather Web', 'sans-serif'; }
 
 /*--------------------------------------------------------------
 # Elements
@@ -470,7 +581,7 @@ input[type="submit"] {
     background: transparent;
     border: solid 0px transparent;
     width: 0; }
-  .search-form fieldset .search-width {
+  .search-form fieldset .new-width {
     width: 170px; }
 
 /* Fields */
@@ -775,6 +886,8 @@ a {
   .site-info a {
     color: white;
     text-decoration: none; }
+  .site-info i {
+    width: 25px; }
 
 h3 {
   text-transform: uppercase;
@@ -792,9 +905,6 @@ h3 {
   margin-top: 2rem; }
   .companyLogo img {
     width: 70%; }
-
-i {
-  width: 25px; }
 
 .entry-footer {
   text-transform: uppercase;
@@ -942,7 +1052,7 @@ object {
 .widget-area {
   border-left: solid 1px lightgrey;
   width: 30%;
-  padding: 3rem; }
+  padding: 2.5rem; }
 
 .single .site-content {
   width: 1120px;
@@ -1162,3 +1272,28 @@ object {
 
 .date .page-header {
   border-bottom: solid 1px lightgrey; }
+
+.singleContentWrapper {
+  display: -ms-flexbox;
+  display: flex;
+  padding-top: 3rem; }
+  .singleContentWrapper .entry-header, .singleContentWrapper .entry-content {
+    -ms-flex: 1;
+        flex: 1; }
+  .singleContentWrapper .entry-content {
+    padding-right: 3rem; }
+    .singleContentWrapper .entry-content .entry-title {
+      margin-top: 0; }
+    .singleContentWrapper .entry-content .socialMediaButtons {
+      display: -ms-inline-flexbox;
+      display: inline-flex; }
+      .singleContentWrapper .entry-content .socialMediaButtons i {
+        width: 20px; }
+      .singleContentWrapper .entry-content .socialMediaButtons a {
+        padding: .6rem 1.25rem;
+        margin: .1rem;
+        border: solid 1px  black; }
+        .singleContentWrapper .entry-content .socialMediaButtons a:hover {
+          border: solid 1px  #248a8b; }
+  .singleContentWrapper .entry-header {
+    margin: 0 3rem; }

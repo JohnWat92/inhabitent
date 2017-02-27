@@ -75,6 +75,7 @@ big {
 //FRONT PAGEEEEEEEEEEEEEEEEEEEEEEEEEEE
 .home .navWrap #primary-menu{
 	font-family:'Merriweather Web', 'sans-serif';
+	font-size:1rem;
 }
 .home h2{
 		font-family: 'Novecento Sans Web','sans-serif';	
@@ -84,7 +85,7 @@ big {
 .shop-stuff-icons {
 	p{
 	font-family: 'Merriweather Web', 'sans-serif';
-	font-size:.9rem;
+	font-size:1rem;
 	}
 	a{
 		font-family:  'Novecento Sans Web','sans-serif';	
@@ -94,7 +95,7 @@ big {
 
 .home .entry-meta{
 	font-family: 'Merriweather Web', 'sans-serif';
-	font-size:.7rem;
+	font-size:.8rem;
 	
 }
 
@@ -111,7 +112,7 @@ big {
 }
 .home .a-post-info .journalExcerpt{
 	a{
-		font-size:.8rem;
+		font-size:.9rem;
 		font-family:  'Novecento Sans Web','sans-serif';
 		// font-weight:normal;
 	}
@@ -138,5 +139,150 @@ big {
 
 //shop page css
 .page-header{
+	.page-title{
 	font-family:  'Novecento Sans Web','sans-serif';
+	}
+	.taxonomy-description{
+		font-family: 'Merriweather Web', 'sans-serif';
+	}
+}
+.shop-category{
+	.category a{
+		
+			font-family:  'Novecento Sans Web','sans-serif';
+	}
+} 
+.archive-info{
+	.productTitle {
+		font-family: 'Merriweather Web', 'sans-serif';
+		font-size:1rem;
+	}
+	.priceTag{
+	font-family: 'Merriweather Web', 'sans-serif';
+	font-size:.9rem;			
+	}
+}
+//JOURNAL PAGEEEEEE
+.blog {
+	.entry-title{	
+	font-family:  'Novecento Sans Web','sans-serif';
+	font-weight: bold;
+	}
+	.entry-meta{
+		font-family:  'Novecento Sans Web','sans-serif';
+	}
+	.entry-content{
+		font-family: 'Merriweather Web', 'sans-serif';
+	}
+	.read-more{
+		font-family:  'Novecento Sans Web','sans-serif';
+	}
+}
+//ABOUT PAGEEEE
+.page-template-about{
+	h1, h2{
+		font-family:  'Novecento Sans Web','sans-serif';
+		font-weight: bold;
+		letter-spacing:2px;
+	}
+	h1{
+		font-size:2.4rem;
+	}
+	h2{
+		font-size: 2.1rem;
+	}
+	.p1{
+		font-family: 'Merriweather Web', 'sans-serif';
+	}
+}
+//FIND US PAGEEE
+
+.page-id-71{
+	h1, h2{
+		font-family:  'Novecento Sans Web','sans-serif';
+		font-weight: bold;
+		letter-spacing:2px;
+	}
+	h1{
+		font-size:2.4rem;
+	}
+	h2{
+		font-size: 2.1rem;
+		color:#2f1339;
+	}
+	.entry-content p{
+		font-family: 'Merriweather Web', 'sans-serif';
+	}
+}
+//WIDGET STYLING
+#secondary{
+	.widget-title {
+		font-family:  'Novecento Sans Web','sans-serif';
+		color:#2f1339;
+		font-size:1.5rem;
+	}
+	.textwidget{
+		font-family: 'Merriweather Web', 'sans-serif';
+			a{
+			text-decoration:none;
+			}
+			font-size:1rem;
+	}
+	.biz-hours-widget-class p{
+		font-family: 'Merriweather Web', 'sans-serif';
+	}
+	.widget_archive{
+		a{
+				font-family: 'Merriweather Web', 'sans-serif';
+		}
+	}
+}
+//journal archive page styling
+.date{
+		.entry-title{	
+	font-family:  'Novecento Sans Web','sans-serif';
+	font-weight: bold;
+	}
+	.entry-meta{
+		font-family:  'Novecento Sans Web','sans-serif';
+	}
+	.entry-content{
+		font-family: 'Merriweather Web', 'sans-serif';
+	}
+	.read-more{
+		font-family:  'Novecento Sans Web','sans-serif';
+	}
+}
+//single products page styling
+.single-products{
+	.entry-title{
+		text-transform:uppercase;
+		font-family:  'Novecento Sans Web','sans-serif';
+		font-weight:bold;
+		color:#d99054;
+		letter-spacing:2px;
+	}
+	.priceTag{
+			font-family:  'Novecento Sans Web','sans-serif';
+			font-size:1.7rem;
+	}
+	.socialMediaButtons{
+		
+		a{
+			text-decoration:none;
+			text-transform:uppercase;
+			font-family:  'Novecento Sans Web','sans-serif';
+			color:black;
+			font-size:.8rem;
+			&:hover{
+			background:#248a8b;
+			color:white;
+			}
+		
+		}
+		
+	}
+	p{
+			font-family: 'Merriweather Web', 'sans-serif';
+	}
 }

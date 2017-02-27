@@ -15,7 +15,7 @@
  .widget-area{
 	border-left:solid 1px lightgrey;
 	width:30%;
-	padding:3rem;
+	padding:2.5rem;
 }
 .single .site-content{
 	width:1120px;
@@ -301,3 +301,33 @@
 }
 
 //single-page products
+.singleContentWrapper{
+	display:flex;
+	padding-top:3rem;
+	.entry-header, .entry-content{
+		flex:1;
+	}
+	.entry-content{
+		padding-right:3rem;
+		.entry-title{
+			margin-top:0;
+		}
+		.socialMediaButtons{
+			display:inline-flex;
+			i{
+			width:20px;
+			}
+			a{
+				padding:.6rem 1.25rem;
+				margin:.1rem;
+				border:solid 1px  black;
+				&:hover{
+					border:solid 1px  #248a8b;
+				}
+			}
+		}
+	}
+	.entry-header{
+		margin: 0 3rem;
+	}
+}

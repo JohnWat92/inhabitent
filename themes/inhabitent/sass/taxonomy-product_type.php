@@ -22,7 +22,6 @@ get_header(); ?>
             <ul class="shop-flexbox">
                 <section class="allproducts">
                 <?php /* Start the Loop */ ?>
-                
                 <?php while ( have_posts() ) : the_post(); ?>
                     <li class="shop-product">
                         
