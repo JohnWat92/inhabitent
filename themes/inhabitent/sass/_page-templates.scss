@@ -399,17 +399,22 @@
 
 }
 // comment form logged out
-.comment-respond{
+.comment-form{
 	display:flex;
-	flex-flow: column wrap;
-
+	flex-flow: row wrap;
+	justify-content:space-between;
 	width:100%;
+	.comment-form-comment, .comment-form-url{
+		width:100%;
+	}
 		.comment-form-author,.comment-form-email{
-			display:flex;
-			flex-direction:column;
+			label{
+				display: block;
+			}
+			width: 49%;
 		}
 	#author, #email{
-		width:49%;
+		width:100%;
 		}
 	#url{
 		width:100%;
