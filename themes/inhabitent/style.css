@@ -6,6 +6,7 @@ Author URI: http://www.redacademy.com
 Description: A WordPress Theme for outdoor hipsters
 Version: 1.0.0
 License: GNU General Public License v2 or later
+Text Domain: Inhabitent Theme
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Tags:
 
@@ -672,6 +673,11 @@ big {
       border: solid 1px #248a83;
       background: #248a83;
       color: white; }
+
+.comment-form {
+  font-family: "Merriweather Web", "sans-serif"; }
+  .comment-form .comment-form-author, .comment-form .comment-form-email, .comment-form .comment-form-url {
+    font-family: "Novecento Sans Web", "sans-serif"; }
 
 /*--------------------------------------------------------------
 # Elements
@@ -1611,3 +1617,19 @@ object {
 .search .page-title {
   border-bottom: solid 1px lightgrey;
   padding-bottom: 1rem; }
+
+.comment-respond {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-flow: column wrap;
+      flex-flow: column wrap;
+  width: 100%; }
+  .comment-respond .comment-form-author, .comment-respond .comment-form-email {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+        flex-direction: column; }
+  .comment-respond #author, .comment-respond #email {
+    width: 49%; }
+  .comment-respond #url {
+    width: 100%; }
