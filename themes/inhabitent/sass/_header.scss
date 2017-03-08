@@ -63,8 +63,11 @@
             }
         }
         .fa-search{
-	color:white;
-    }
+            color:white;
+            &:hover{
+                color:#f0e4d1;
+            }
+        }
     }
 }
 //About Page CSS Styling

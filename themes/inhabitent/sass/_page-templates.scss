@@ -3,12 +3,11 @@
 --------------------------------------------------------------*/
 
 /* Front page */
-
-.blog .content-area, .single-post .content-area, .date .content-area, .error404 .content-area, .search .content-area,.page-id-71 .content-area{
+.blog .content-area, .single-post .content-area, .date .content-area, .error404 .content-area, .search .content-area,.page-id-71 .content-area, .archive.category .content-area, .archive.tag .content-area{
 	width:70%;
 	padding-right:3rem;
 }
- .widget-area{
+.widget-area{
 	border-left:solid 1px lightgrey;
 	width:30%;
 	padding:2.5rem;
@@ -18,56 +17,53 @@
 	margin-left: auto;
 	margin-right:auto;
 }
-
-	.blog .entry-title, .single-post .entry-title, .archive .entry-title{
-		position:absolute;
-		padding-left: 1rem;
-		font-size:2rem;
-		text-transform:uppercase;
-    	top: 10px;
-		background-color: #248a83;
-		width: 30rem;
+.blog .entry-title, .single-post .entry-title, .archive .entry-title{
+	position:absolute;
+	padding-left: 1rem;
+	font-size:2rem;
+	text-transform:uppercase;
+	top: 10px;
+	background-color: #248a83;
+	width: 30rem;
+	color:white;
+	padding: .6rem;
+	padding-left: 1rem;
+	a{
 		color:white;
-		padding: .6rem;
-		padding-left: 1rem;
-		a{
+		text-decoration:none;
+		&:visited{
 			color:white;
-			text-decoration:none;
-			&:visited{
-				color:white;
-			}
-			&:hover{
-				color:$color__background-ins;
-			}
+		}
+		&:hover{
+			color:$color__background-ins;
 		}
 	}
-	//css positioning for entry meta
-	.blog .entry-meta, .single-post .entry-meta, .archive .entry-meta{
-		position:absolute;
-		bottom: 6.5px;
-		color: white;
-		right: 0px;
-		text-transform:uppercase;
-		background-color: #248A83;
-		padding: .3rem 1.5rem;
-		color:white;
-		a{
-			text-decoration:none;
-			&:hover{
-				color:$color__background-ins;
-			}
-			&:visited{
-				color:white;
-			}
+}
+//css positioning for entry meta
+.blog .entry-meta, .single-post .entry-meta, .archive .entry-meta{
+	position:absolute;
+	bottom: 6.5px;
+	color: white;
+	right: 0px;
+	text-transform:uppercase;
+	background-color: #248A83;
+	padding: .3rem 1.5rem;
+	color:white;
+	a{
+		text-decoration:none;
+		&:hover{
+			color:$color__background-ins;
 		}
-		.comments-link a{
-			&:hover{
-				color:$color__background-ins;
-			}
+		&:visited{
+			color:white;
 		}
 	}
-
-
+	.comments-link a{
+		&:hover{
+			color:$color__background-ins;
+		}
+	}
+}
 .about-hero{
 	background: linear-gradient( to bottom, rgba(0,0,0,0.4) 0%, rgba(0,0,0,0.4) 100% ),
 	url(../../images/about-hero.jpg) no-repeat center bottom;
@@ -75,7 +71,6 @@
 	height:800px;
 	position:relative;
 }
-
 .home .shop-container{
 	display:inline-flex;
 	justify-content: center;
@@ -91,8 +86,8 @@
 		margin:.7rem;
 		align-items:baseline;
 		&:hover{
-		border:solid 1px #d99054;
-		border-top:solid 5px #d99054;
+			border:solid 1px #d99054;
+			border-top:solid 5px #d99054;
 		}
 		a{
 			color:white;	
@@ -103,9 +98,8 @@
 			text-transform:uppercase;
 			&:hover{
 			background:#1b6661;
+			}
 		}
-		}
-		
 		img{
 			width:70px;
 			height:70px;
@@ -117,7 +111,6 @@
 	text-transform: uppercase;
 	font-size:2.4rem;
 }
-
 //journal css stuff
 .journal-entry{
 	max-width:100%;
@@ -127,14 +120,13 @@
 		border: solid 1px lightgrey;
 		margin: .75rem;
 		flex: 0 1 32%;
-		
 		.a-post-image{
 			border-bottom:solid 5px lightgrey;
 			height:250px;
 			img{
-			width:100%;
-			height:246px;
-		}
+				width:100%;
+				height:246px;
+			}
 		}
 		.a-post-info{
 			padding:1rem;
@@ -145,20 +137,18 @@
 	}
 
 }
-
 .home .journalExcerpt a{
 	color: black;
-    background: white;
-    border: solid 1px black;
-    text-decoration: none;
-    padding: .6rem 1.3rem;
-    text-transform: uppercase;
-    margin-bottom: 1.1rem;
+	background: white;
+	border: solid 1px black;
+	text-decoration: none;
+	padding: .6rem 1.3rem;
+	text-transform: uppercase;
+	margin-bottom: 1.1rem;
 	&:hover{
 		background:#248a83;
 		color:white;
 		border: solid 1px #248a83;
-
 	}
 }	
 .journal-3{
@@ -169,7 +159,7 @@
 .home .entry-header .entry-title{
 	display:none;
 }
-.category {
+.home .category,.archive .category {
 	text-transform:uppercase;
 	border-bottom: 1px dashed #c8c8c8;
 	padding-bottom: 2.5rem;
@@ -194,7 +184,6 @@
 		text-transform:uppercase;
 		font-size:.8rem;
 		color:black;
-
 		&:hover{
 			color:white;
 			background:#248A83;
@@ -216,9 +205,7 @@
 	max-width:1120px;
 	margin: auto;
 }
-
 //taxonomy products categories
-
 .tax-product_type .page-header{
 	.page-title{
 		text-transform:uppercase;
@@ -249,7 +236,7 @@
 	position:relative;
 	.dotStuff{
 		position:absolute;
-	    top: -4.5px;
+	  top: -4.5px;
 		right: 68px;
 		letter-spacing: -1px;
 		z-index: -1;
@@ -276,7 +263,6 @@
 .date .page-header{
 	border-bottom:solid 1px lightgrey;
 }
-
 //single-page products
 .singleContentWrapper{
 	display:flex;
@@ -292,7 +278,7 @@
 		.socialMediaButtons{
 			display:inline-flex;
 			i{
-			width:20px;
+				width:20px;
 			}
 			a{
 				padding:.6rem 1.25rem;
@@ -310,22 +296,20 @@
 	}
 }
 .single-post .socialMediaButtons{
-			display:inline-flex;
-			i{
-			width:20px;
-			}
-			a{
-				padding:.6rem 1.25rem;
-				margin:.1rem;
-				margin-top:1rem;
-				border:solid 1px  black;
-				&:hover{
-					border:solid 1px  #248a83;
-				}
-			}
+	display:inline-flex;
+	i{
+		width:20px;
+	}
+	a{
+		padding:.6rem 1.25rem;
+		margin:.1rem;
+		margin-top:1rem;
+		border:solid 1px  black;
+		&:hover{
+			border:solid 1px  #248a83;
 		}
-
-
+	}
+}
 .single-post .entry-footer{
 	padding-bottom:1rem;
 }
@@ -333,18 +317,15 @@
 .comments-title{
 		font-size:2rem;
 		letter-spacing: 2px;
-
 }
 .comment-body{
 	display:inline-flex;
 	padding-bottom:.5rem;
 	.comment-content{
 		padding-left:1rem;
-		
 	}
 }
 .children{
-	// border-top: solid 1px lightgrey;
 	padding-top:1rem;
 	margin-left:4rem;
 	margin-bottom:1rem;
@@ -355,7 +336,6 @@
 		border-top:solid 0px lightgrey;
 	}
 }
-
 .comment{
 	border-top:solid 1px lightgrey;
 	padding-top:1rem;
@@ -363,9 +343,8 @@
 .comment-respond{
 	border-top:solid 1px lightgrey;
 }
-
 //END OF COMMENT section
-//STUFF
+//WIDGET ICON SPACING
 .textwidget{
 	i{
 		width:25px;
@@ -380,7 +359,6 @@
 		line-height:22;
 		text-align: center;
 		color:white;
-
 	}
 	.container{
 		width:800px;
@@ -388,7 +366,6 @@
 			text-align: center;
 		}
 	}
-
 }
 //search page
 .search{
@@ -396,7 +373,6 @@
 		border-bottom: solid 1px lightgrey;
 		padding-bottom:1rem;
 	}
-
 }
 // comment form logged out
 .comment-form{
@@ -407,15 +383,15 @@
 	.comment-form-comment, .comment-form-url{
 		width:100%;
 	}
-		.comment-form-author,.comment-form-email{
-			label{
-				display: block;
-			}
-			width: 49%;
+	.comment-form-author,.comment-form-email{
+		label{
+			display: block;
 		}
+		width: 49%;
+	}
 	#author, #email{
 		width:100%;
-		}
+	}
 	#url{
 		width:100%;
 	}

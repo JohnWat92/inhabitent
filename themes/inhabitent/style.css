@@ -750,11 +750,6 @@ input[type="reset"],
 input[type="submit"] {
   background: transparent;
   border: solid transparent; }
-  button:hover .icon-search,
-  input[type="button"]:hover .icon-search,
-  input[type="reset"]:hover .icon-search,
-  input[type="submit"]:hover .icon-search {
-    color: red; }
   button:active, button:focus,
   input[type="button"]:active,
   input[type="button"]:focus,
@@ -768,14 +763,32 @@ input[type="submit"] {
 .home .fa-search, .page-template-about .fa-search {
   color: white; }
 
-.search-form {
+.home input[type=search], .home input[type=search]:focus, .page-template-about input[type=search], .page-template-about input[type=search]:focus {
+  color: white; }
+
+.error404 .page-content button {
+  display: none; }
+
+.error404 .search-form fieldset {
+  padding-left: 0; }
+
+.navSearchContainer .search-form {
   padding-top: 1rem; }
-  .search-form fieldset .search-field {
+  .navSearchContainer .search-form fieldset .search-field {
     background: transparent;
     border: solid 0px transparent;
-    width: 0; }
-  .search-form fieldset .new-width {
+    width: 0;
+    transition: width .5s; }
+  .navSearchContainer .search-form fieldset .new-width {
     width: 170px; }
+  .navSearchContainer .search-form .fa-search:hover {
+    color: midnightblue; }
+
+.search-no-results .search-form .fa-search, .search-no-results .search-form button {
+  display: none; }
+
+.search-no-results .search-form fieldset {
+  padding-left: 0; }
 
 /* Fields */
 input[type="text"],
@@ -1213,6 +1226,8 @@ h3 {
           color: #f0e4d1; }
     .reverse-header .navContainer .navWrap .fa-search {
       color: white; }
+      .reverse-header .navContainer .navWrap .fa-search:hover {
+        color: #f0e4d1; }
 
 .site-content {
   padding-top: 50px;
@@ -1301,7 +1316,7 @@ object {
 # Page Templates
 --------------------------------------------------------------*/
 /* Front page */
-.blog .content-area, .single-post .content-area, .date .content-area, .error404 .content-area, .search .content-area, .page-id-71 .content-area {
+.blog .content-area, .single-post .content-area, .date .content-area, .error404 .content-area, .search .content-area, .page-id-71 .content-area, .archive.category .content-area, .archive.tag .content-area {
   width: 70%;
   padding-right: 3rem; }
 
@@ -1442,14 +1457,14 @@ object {
 .home .entry-header .entry-title {
   display: none; }
 
-.category {
+.home .category, .archive .category {
   text-transform: uppercase;
   border-bottom: 1px dashed #c8c8c8;
   padding-bottom: 2.5rem;
   text-align: center;
   margin-bottom: 2rem;
   width: 1120px; }
-  .category a {
+  .home .category a, .archive .category a {
     padding: 0rem 1.3rem;
     text-decoration: none; }
 

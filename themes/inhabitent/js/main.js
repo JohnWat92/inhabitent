@@ -11,10 +11,12 @@
     $(window).scroll(function() {
         event.preventDefault();
  var scroll = $(window).scrollTop();
- if (scroll >= 870)
+ if (scroll >= 870){
   $(".site-header").removeClass("reverse-header");
-  else
+ }
+  else{
   $(".site-header").addClass("reverse-header");
+  }
 })
 })
 (jQuery);
