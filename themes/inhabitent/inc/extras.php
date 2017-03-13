@@ -108,3 +108,18 @@ function grd_custom_archive_title( $title ) {
 	// Remove any HTML, words, digits, and spaces before the title.
 	return preg_replace( '#^[\w\d\s]+:\s*#', '', strip_tags( $title ) );
 }
+function adventure_archive_posts( $query ) {
+    if ( is_post_type_archive( 'adventures' )){
+		$query->set('order', 'ASC' );
+        return;
+    }
+}
+add_action( 'pre_get_posts', 'adventure_archive_posts' );
+
+function shop_product_category( $query ) {
+        if (is_tax()) {                     
+        $query->set( 'orderby', 'name' );
+        $query->set( 'order', 'ASC' );
+    }
+}
+add_action( 'pre_get_posts', 'shop_product_category' );

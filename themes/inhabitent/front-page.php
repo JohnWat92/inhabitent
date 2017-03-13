@@ -76,42 +76,6 @@ get_header('home'); ?>
 					?>
              </section>    
 						 
-				 <!--<section class = "adventures">
-				 <h2> Latest Adventures </h2>
-				 <div class = "adventureImages">
-					 <div class = "leftBox">
-					 	 <div class = "longImage">
-							  <div class = "longImageContent">
-						  		<p class = "longImageText"> Getting Back to Nature in a Canoe </p>
-						  		<a href=""> Read More</a>
-							 </div>
-						 </div>
-					 </div>
-					 <div class = "rightBox">
-						 <div class = "wideImage">
-						 	<div class = "wideImageContent">
-								<p class = "wideImageText"> A Night with Friends at the Beach </p>
-								<a href=""> Read More</a>
-							</div>
-						 </div>
-						 <div class = "rightBoxLeftImage squareImage">
-							<div class = "squareImageContent">
-								<p class = "squareImageText"> Taking in the View at Big Mountain </p>
-								<a href=""> Read More</a>
-							</div>
-						 </div>
-						 <div class = "rightBoxRightImage squareImage">
-							 <div class = "squareImageContent">
-								<p class = "squareImageText"> Star-Gazing at the Night Sky </p>
-								<a href=""> Read More</a>
-							 </div>
-						 </div>
-					</div>
-				 </div>
-				 	<p class = "moreAdventures">
-					<a  href=""> More Adventures</a>
-				</p>
-			</section>-->
 			<!--<?php
 
        $arg = array(
