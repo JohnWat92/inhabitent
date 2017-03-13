@@ -23,21 +23,22 @@ get_header(); ?>
                 </div>
 	        </section>
             <div class = "container">
-            <ul class="shop-flexbox">
-                <section class="allproducts">
+                <section class="allAdventures">
+            <ul class="adventuresList">
+                
                 <?php /* Start the Loop */ ?>
                 <?php while ( have_posts() ) : the_post(); ?>
-                    <li class="shop-product">
-                        <div class="archive-product">
-                            <a href="<?php the_permalink();?>" ><?php the_post_thumbnail('large'); ?>
+                    <li class="latestAdventures">
+                        <div class="archive-adventure-wrapper">
+                            <a href="<?php the_permalink();?>" ><?php the_post_thumbnail(); ?>
                             </a>
-                        </div>
-                        <div class="archive-info">
-                            <div class = "productTitle">
-                             <p><a href="<?php the_permalink(); ?>" title="<?php the_title_attribute(); ?>">
-								<?php the_title(); ?>   </a></p>
+                            <div class="adventure-info">
+                                <div class = "adventureTitle">
+                                <p><a href="<?php the_permalink(); ?>" title="<?php the_title_attribute(); ?>">
+                                    <?php the_title(); ?>   </a></p>
+                                </div>
+                                <a href="<?php the_permalink(); ?>" type="button" class="black-button">Read More</a>
                             </div>
-                            <a href="<?php the_permalink(); ?>" type="button" class="black-button">Read More</a>
                         </div>
                     </li>
                 <?php endwhile; ?>

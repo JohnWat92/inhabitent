@@ -439,3 +439,58 @@
 			}
 		}
 }
+//adventures-archives template
+.adventuresList{
+	display:flex;
+	flex-wrap:wrap;
+	box-sizing: border-box;
+	.latestAdventures{
+		position:relative;
+	}
+	.archive-adventure-wrapper{
+		// position:relative;
+		background: linear-gradient( to bottom, rgba(0,0,0,0.4) 0%, rgba(0,0,0,0.4) 100% );
+		height:100%;
+		img{
+			height:100%;
+			z-index:-9999;
+			object-fit:cover; 
+		}
+	}
+	.adventure-info{
+		position:absolute;
+		top:0;
+		padding-left: 1rem;
+		z-index:10;
+		.black-button{
+			border:solid 1px white;
+			color:white;
+			padding:.5rem 1.5rem;
+			text-decoration:none;
+			text-transform: uppercase;
+			font-size:.9rem;
+			font-family:$accentFont;
+			&:hover{
+				background:#248a83;
+				border:solid 1px #248a83;
+			}
+		}
+		.adventureTitle{
+			font-size:3rem;
+			font-family:$normalFont;
+			a{
+				color:white;
+				&:hover{
+					color:#f0e4d1
+				}
+			}
+		}
+	}
+	li{
+		width:48%;
+		margin: 1%;
+		height:550px;
+		z-index:-100;
+		position:relative;
+	}
+}
