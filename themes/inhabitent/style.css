@@ -1155,6 +1155,17 @@ a {
 
 .adventureSection {
   box-sizing: border-box; }
+  .adventureSection a.moreAdventures {
+    margin-top: 2rem;
+    padding: .75rem 1.5rem;
+    color: white;
+    background: #248a83;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: "Novecento Sans Web", "sans-serif";
+    margin-left: .6rem; }
+    .adventureSection a.moreAdventures:hover {
+      background: #1b6661; }
   .adventureSection ul.adventurePicture {
     display: -ms-flexbox;
     display: flex;
@@ -1163,6 +1174,7 @@ a {
     width: 1120px;
     height: 540px;
     position: relative;
+    margin-bottom: 3rem;
     box-sizing: border-box; }
     .adventureSection ul.adventurePicture .adventure-wrapper {
       margin: 10px;
@@ -1173,7 +1185,7 @@ a {
         z-index: -100; }
       .adventureSection ul.adventurePicture .adventure-wrapper .adventure-info {
         padding-left: 2rem; }
-        .adventureSection ul.adventurePicture .adventure-wrapper .adventure-info a {
+        .adventureSection ul.adventurePicture .adventure-wrapper .adventure-info .adventure-read-more {
           border: solid 1px white;
           color: white;
           padding: .5rem 1.5rem;
@@ -1181,7 +1193,7 @@ a {
           text-transform: uppercase;
           font-size: .9rem;
           font-family: "Novecento Sans Web", "sans-serif"; }
-          .adventureSection ul.adventurePicture .adventure-wrapper .adventure-info a:hover {
+          .adventureSection ul.adventurePicture .adventure-wrapper .adventure-info .adventure-read-more:hover {
             background: #248a83;
             border: solid 1px #248a83; }
     .adventureSection ul.adventurePicture li:nth-child(1) {
@@ -1193,10 +1205,12 @@ a {
         display: flex; }
         .adventureSection ul.adventurePicture li:nth-child(1) .adventure-wrapper .adventure-info {
           width: 50%; }
-          .adventureSection ul.adventurePicture li:nth-child(1) .adventure-wrapper .adventure-info p {
+          .adventureSection ul.adventurePicture li:nth-child(1) .adventure-wrapper .adventure-info p a {
             font-family: "Merriweather Web", "sans-serif";
             font-size: 3rem;
             color: white; }
+            .adventureSection ul.adventurePicture li:nth-child(1) .adventure-wrapper .adventure-info p a:hover {
+              color: #f0e4d1; }
         .adventureSection ul.adventurePicture li:nth-child(1) .adventure-wrapper img {
           height: 100%;
           object-fit: cover; }
@@ -1209,10 +1223,12 @@ a {
         height: 260px; }
         .adventureSection ul.adventurePicture li:nth-child(2) .adventure-wrapper .adventure-info {
           width: 45%; }
-          .adventureSection ul.adventurePicture li:nth-child(2) .adventure-wrapper .adventure-info p {
+          .adventureSection ul.adventurePicture li:nth-child(2) .adventure-wrapper .adventure-info p a {
             font-family: "Merriweather Web", "sans-serif";
             font-size: 2.4rem;
             color: white; }
+            .adventureSection ul.adventurePicture li:nth-child(2) .adventure-wrapper .adventure-info p a:hover {
+              color: #f0e4d1; }
         .adventureSection ul.adventurePicture li:nth-child(2) .adventure-wrapper img {
           height: 100%;
           object-fit: cover; }
@@ -1229,10 +1245,12 @@ a {
         .adventureSection ul.adventurePicture li:nth-child(3) .adventure-wrapper .adventure-info {
           width: 80%;
           padding-top: 1.5rem; }
-          .adventureSection ul.adventurePicture li:nth-child(3) .adventure-wrapper .adventure-info p {
+          .adventureSection ul.adventurePicture li:nth-child(3) .adventure-wrapper .adventure-info p a {
             font-family: "Merriweather Web", "sans-serif";
             font-size: 1.5rem;
             color: white; }
+            .adventureSection ul.adventurePicture li:nth-child(3) .adventure-wrapper .adventure-info p a:hover {
+              color: #f0e4d1; }
         .adventureSection ul.adventurePicture li:nth-child(3) .adventure-wrapper img {
           height: 100%;
           width: 100%;
@@ -1250,10 +1268,12 @@ a {
         .adventureSection ul.adventurePicture li:nth-child(4) .adventure-wrapper .adventure-info {
           width: 80%;
           padding-top: 1.5rem; }
-          .adventureSection ul.adventurePicture li:nth-child(4) .adventure-wrapper .adventure-info p {
+          .adventureSection ul.adventurePicture li:nth-child(4) .adventure-wrapper .adventure-info p a {
             font-family: "Merriweather Web", "sans-serif";
             font-size: 1.5rem;
             color: white; }
+            .adventureSection ul.adventurePicture li:nth-child(4) .adventure-wrapper .adventure-info p a:hover {
+              color: #f0e4d1; }
         .adventureSection ul.adventurePicture li:nth-child(4) .adventure-wrapper img {
           height: 100%;
           width: 100%;
@@ -1599,14 +1619,24 @@ object {
 .home .entry-header .entry-title {
   display: none; }
 
-.home .category, .archive .category {
+.home .category, .post-type-archive-products .category {
   text-transform: uppercase;
   border-bottom: 1px dashed #c8c8c8;
   padding-bottom: 2.5rem;
   text-align: center;
   margin-bottom: 2rem;
   width: 1120px; }
-  .home .category a, .archive .category a {
+  .home .category a, .post-type-archive-products .category a {
+    padding: 0rem 1.3rem;
+    text-decoration: none; }
+
+.post-type-archive-adventures .category {
+  text-transform: uppercase;
+  border-bottom: 1px dashed #c8c8c8;
+  text-align: center;
+  margin-bottom: 2rem;
+  width: 1120px; }
+  .post-type-archive-adventures .category a {
     padding: 0rem 1.3rem;
     text-decoration: none; }
 

@@ -76,7 +76,7 @@ get_header('home'); ?>
 					?>
              </section>    
 						 
-				 <section class = "adventures">
+				 <!--<section class = "adventures">
 				 <h2> Latest Adventures </h2>
 				 <div class = "adventureImages">
 					 <div class = "leftBox">
@@ -111,7 +111,7 @@ get_header('home'); ?>
 				 	<p class = "moreAdventures">
 					<a  href=""> More Adventures</a>
 				</p>
-			</section>
+			</section>-->
 			<!--<?php
 
        $arg = array(
@@ -138,20 +138,24 @@ get_header('home'); ?>
 					'posts_per_page' => 4 ) );
 			?>
 			<section class = "adventureSection">
+				<h2> Latest Adventures </h2>
 				<ul class = "adventurePicture">
 			<?php while ( $loop->have_posts() ) : $loop->the_post(); ?>
 			<li>
 				<div class="adventure-wrapper">
 					<?php the_post_thumbnail();?>
 					<div class="adventure-info">
-						<p><?php the_title(); ?></p>
-						<a href="<?php the_permalink(); ?>" type="button" class="black-button">Read More</a>
+						<!--<p><?php the_title(); ?></p>-->
+						 <p class = "adventure-title"><a href="<?php the_permalink(); ?>" title="<?php the_title_attribute(); ?>">
+								<?php the_title(); ?></a></p>
+						<a class ="adventure-read-more" href="<?php the_permalink(); ?>" type="button" class="black-button">Read More</a>
 						<!--<a class="read-more" href="<?php echo get_permalink($adventure); ?>"> Read Entry </a>-->
 					</div>
 				</div>
 			</li>
 			<?php endwhile; ?>
 			</ul>
+			<a class="moreAdventures" href='<?php echo get_post_type_archive_link('adventures');?>'>More Adventures</a>
 		</section>
 
    <!--</div>  

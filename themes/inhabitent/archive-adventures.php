@@ -12,25 +12,14 @@ get_header(); ?>
         <?php if ( have_posts() ) : ?>
             <header class="page-header">
                 <?php
-                        add_filter('get_the_archive_title', 'product_archive_title');
+                        add_filter('get_the_archive_title', 'adventure_archive_title');
                         the_archive_title( '<h1 class="page-title">', '</h1>' );
                         the_archive_description( '<div class="taxonomy-description">', '</div>' );
                 ?>
             </header>
             <section class = "shop-category container">
                 <div class = "category container">
-                    <?php
-                        $terms = get_terms( array(
-                            'taxonomy' => 'product_type',
-                            'orderby' => 'name',
-                            'hide_empty' => 'false'
-                            ) );
-                        foreach ($terms as $term):
-                        $url = get_term_link ($term->slug , 'product_type');
-                    ?>
-                        <a href='<?php echo $url?>' class='button-link'><?php echo $term->name ; ?></a>
                    
-                    <?php endforeach; ?>
                 </div>
 	        </section>
             <div class = "container">
@@ -39,21 +28,16 @@ get_header(); ?>
                 <?php /* Start the Loop */ ?>
                 <?php while ( have_posts() ) : the_post(); ?>
                     <li class="shop-product">
-                        
                         <div class="archive-product">
                             <a href="<?php the_permalink();?>" ><?php the_post_thumbnail('large'); ?>
                             </a>
                         </div>
                         <div class="archive-info">
                             <div class = "productTitle">
-                             <?php the_title(); ?>   
+                             <p><a href="<?php the_permalink(); ?>" title="<?php the_title_attribute(); ?>">
+								<?php the_title(); ?>   </a></p>
                             </div>
-                            <div class ="dotStuff">
-                                <p class = "dotBackground">.............................</p>
-                            </div>
-                            <div class = "priceTag">
-                              <?php echo CFS()->get('price');?>
-                            </div>
+                            <a href="<?php the_permalink(); ?>" type="button" class="black-button">Read More</a>
                         </div>
                     </li>
                 <?php endwhile; ?>

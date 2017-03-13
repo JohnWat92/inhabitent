@@ -43,9 +43,7 @@
 .archive .format-aside .entry-title {
 	display: none;
 }
-
 /* Comments */
-
 .comment-content a {
 	word-wrap: break-word;
 }
@@ -55,7 +53,6 @@
 //front page CSS
 .heroContainer{
 	width:100vw;
-
 }
 .home-hero{
 	background: linear-gradient( to bottom, rgba(0,0,0,0.4) 0%, rgba(0,0,0,0.4) 100% ),
@@ -73,7 +70,6 @@
 		width: 250px;
 	}
 }
-
 //Shop Section CSS
 .allproducts{
 	display:flex;
@@ -85,18 +81,14 @@
 		flex: 0 1 23%;
 	}
 }
-
 .post-type-archive {
 	.page-title{
-	text-align:center;
+		text-align:center;
 	}
 }
-
 //Find Us Page CSS
 .page .entry-title {
-
 		text-transform: uppercase;
-
 }
 .page .entry-content {
 	h2{
@@ -106,7 +98,6 @@
 .required{
 	color:#d99054;
 }
-
 .blog .site-content{
 	width:1120px;
 	margin:0 auto;
@@ -115,7 +106,6 @@
 	width:1120px;
 	margin:0 auto;
 }
-
 .belowHero{
 	display:flex;
 	flex-direction:column;
@@ -123,7 +113,6 @@
 	width:100vw;
 	margin:0 auto;
 }
-
 .adventureImages{
 	display:flex;
 	width:1080px;
@@ -197,7 +186,19 @@
 // 	}
 // }
 .adventureSection{
-	
+	a.moreAdventures{
+		margin-top:2rem;
+			padding:.75rem 1.5rem;
+			color:white;
+			background:#248a83;
+			text-decoration:none;
+			text-transform:uppercase;
+			font-family:$accentFont;
+			margin-left:.6rem;
+			&:hover{
+				background:#1b6661;
+			}
+	}
 	box-sizing: border-box;
 	ul.adventurePicture{
 		display:flex;
@@ -205,6 +206,7 @@
 		width:1120px;
 		height:540px;
 		position:relative;
+		margin-bottom:3rem;
 		box-sizing: border-box;
 		.adventure-wrapper{
 			margin:10px;
@@ -215,7 +217,7 @@
 			}
 			.adventure-info{
 					padding-left:2rem;
-					a{
+					.adventure-read-more{
 						border:solid 1px white;
 						color:white;
 						padding:.5rem 1.5rem;
@@ -240,9 +242,14 @@
 				.adventure-info{
 					width:50%;
 					p{
-						font-family: $normalFont;
-						font-size:3rem;
-						color:white;
+						a{
+							font-family: $normalFont;
+							font-size:3rem;
+							color:white;
+							&:hover{
+								color:#f0e4d1
+							}
+						}
 					}
 				}
 				img{
@@ -257,15 +264,19 @@
 			.adventure-wrapper{ 
 			height: 100%;
 			margin-bottom:20px;
-			height:260px;
-
+			height:260px; 
 			.adventure-info{
 				width:45%;
 				p{
-					font-family: $normalFont;
-					font-size:2.4rem;
-					color:white;
-				}
+						a{
+							font-family: $normalFont;
+							font-size:2.4rem;
+							color:white;
+							&:hover{
+								color:#f0e4d1
+							}
+						}
+					}
 			}
 			img{
 				height:100%;
@@ -288,9 +299,14 @@
 					width:80%;
 					padding-top:1.5rem;
 					p{
-						font-family: $normalFont;
-						font-size:1.5rem;
-						color:white;
+						a{
+							font-family: $normalFont;
+							font-size:1.5rem;
+							color:white;
+							&:hover{
+								color:#f0e4d1
+							}
+						}
 					}
 				}
 				img{
@@ -317,9 +333,14 @@
 					width:80%;
 					padding-top: 1.5rem;
 					p{
-						font-family: $normalFont;
-						font-size:1.5rem;
-						color:white;
+						a{
+							font-family: $normalFont;
+							font-size:1.5rem;
+							color:white;
+							&:hover{
+								color:#f0e4d1
+							}
+						}
 					}
 				}
 				img{

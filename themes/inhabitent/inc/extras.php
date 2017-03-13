@@ -98,7 +98,12 @@ function product_archive_title($title) {
     return $title;
 }
 // add_filter('get_the_archive_title', 'product_archive_title');
-
+function adventure_archive_title($title) {
+    if(is_post_type_archive('adventures')) {
+        $title = 'Latest Adventures';
+    }
+    return $title;
+}
 function grd_custom_archive_title( $title ) {
 	// Remove any HTML, words, digits, and spaces before the title.
 	return preg_replace( '#^[\w\d\s]+:\s*#', '', strip_tags( $title ) );
