@@ -60,7 +60,7 @@ get_header(); ?>
             </ul>
             <?php the_posts_navigation(); ?>  
             <?php else : ?>
-            <?php get_template_part( 'template-parts/content', 'none' ); ?>
+            <?php get_template_part( 'template-parts/content', 'single-adventures' ); ?>
             <?php endif; ?>
                 </section>
 			</div>

@@ -75,28 +75,7 @@ get_header('home'); ?>
 					// wp_reset_postdata();
 					?>
              </section>    
-			 <!--<section class = "adventures">
-				 <h2> Latest Adventures <h2>
-				 <div class = "adventureImages">
-					 <div class = "leftBox">
-					 	 <div class = "longImage">
-							 <img src="<?php echo get_template_directory_uri() ?>/images/adventure-photos/canoe-girl.jpg" alt="canoe-girl.jpg">
-						 </div>
-					 </div>
-					 <div class = "rightBox">
-						 <div class = "wideImage">
-							 <img src="<?php echo get_template_directory_uri() ?>/images/adventure-photos/beach-bonfire.jpg" alt="beach-bonfire.jpg">
-						 </div>
-						 <div class = "rightBoxLeftImage squareImage">
-							 <img src="<?php echo get_template_directory_uri() ?>/images/adventure-photos/mountain-hikers.jpg" alt="mountain-hikers.jpg">
-						 </div>
-						 <div class = "rightBoxRightImage squareImage">
-							 <img src="<?php echo get_template_directory_uri() ?>/images/adventure-photos/night-sky.jpg" alt="night-sky.jpg">
-						 </div>
-
-					</div>
-				 </div>
-			</section>-->
+						 
 				 <section class = "adventures">
 				 <h2> Latest Adventures </h2>
 				 <div class = "adventureImages">
@@ -106,8 +85,6 @@ get_header('home'); ?>
 						  		<p class = "longImageText"> Getting Back to Nature in a Canoe </p>
 						  		<a href=""> Read More</a>
 							 </div>
-							 
-
 						 </div>
 					 </div>
 					 <div class = "rightBox">
@@ -135,7 +112,47 @@ get_header('home'); ?>
 					<a  href=""> More Adventures</a>
 				</p>
 			</section>
-			
+			<!--<?php
+
+       $arg = array(
+       'post_type' => 'adventures',
+			 'order' => 'ASC',
+       'taxonomy' => 'adventure_type');
+       $adventures = get_posts( $arg ); // returns an array of posts
+
+       ?>
+			 <div class = "adventure-list">
+       <?php foreach ( $adventures as $adventure ) : setup_postdata( $adventure ); ?>
+			 <div class = "adventure-list-item">
+				<?php echo get_the_post_thumbnail($adventure) ?>
+					<?php the_title( '<h1 class="entry-title">', '</h1>' ); ?>
+				<a class="read-more" href="<?php echo get_permalink($adventure); ?>"> Read Entry </a>
+			</div>
+<?php endforeach; wp_reset_postdata(); ?>
+		</div>-->
+
+			<?php
+					$loop = new WP_Query( array(
+					'post_type' => 'adventures',
+					'order' =>'ASC',
+					'posts_per_page' => 4 ) );
+			?>
+			<section class = "adventureSection">
+				<ul class = "adventurePicture">
+			<?php while ( $loop->have_posts() ) : $loop->the_post(); ?>
+			<li>
+				<div class="adventure-wrapper">
+					<?php the_post_thumbnail();?>
+					<div class="adventure-info">
+						<p><?php the_title(); ?></p>
+						<a href="<?php the_permalink(); ?>" type="button" class="black-button">Read More</a>
+						<!--<a class="read-more" href="<?php echo get_permalink($adventure); ?>"> Read Entry </a>-->
+					</div>
+				</div>
+			</li>
+			<?php endwhile; ?>
+			</ul>
+		</section>
 
    <!--</div>  
    </div>-->

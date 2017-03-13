@@ -57,6 +57,7 @@
             a{
                 color:White;
                 text-transform: uppercase;
+                text-shadow: 1px 1px 2px #323232;
                 &:hover{
                     color:#f0e4d1 ;
                 }
@@ -64,6 +65,7 @@
         }
         .fa-search{
             color:white;
+            text-shadow: 1px 1px 2px #323232;
             &:hover{
                 color:#f0e4d1;
             }
@@ -93,6 +95,9 @@
 	padding-top:50px;
 	display:flex;
 	justify-content: space-between;
+}
+.adventures-template-default .site-content{
+    padding-top:0px;
 }
 .page-template-about .site-content{
 	padding-top:0px;

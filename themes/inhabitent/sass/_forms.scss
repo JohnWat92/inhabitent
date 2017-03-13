@@ -61,7 +61,7 @@ input[type="submit"] {
 		color:$color__link-hover;
 	}
 }
-.search-no-results .search-form{
+.search-no-results .content-area .search-form{
 	.fa-search, button{
 		display:none;
 	}

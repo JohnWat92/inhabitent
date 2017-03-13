@@ -515,3 +515,39 @@ big {
 		font-family:$accentFont;
 	}
 }
+//single adventure pages 
+.adventures-template-default.single{
+	.entry-header{
+		.entry-title{
+			font-family:$accentFont;
+			font-weight:bold;
+			text-transform: uppercase;
+			letter-spacing: 2px;
+			font-size:2.2rem;
+			padding-top:2rem;
+		}
+		.entry-meta{
+			font-family:$accentFont;
+			text-transform: uppercase;
+		}
+	}
+	.entry-content{
+		font-family:$normalFont;
+	
+	}
+	.socialMediaButtons{
+			a{
+				text-decoration:none;
+				text-transform: uppercase;
+				color:black;
+				font-size:.9rem;
+				font-family:$accentFont;
+
+				&:hover{
+					color:white;
+					background:#248a83;
+
+				}
+			}
+		}
+}

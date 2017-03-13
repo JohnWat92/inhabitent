@@ -92,6 +92,9 @@ function red_starter_scripts() {
 	 if ( is_page( 'home' ) || is_page('about') ) {
 	wp_enqueue_script('red_comments', get_template_directory_uri() . '/js/main.js', array('jquery'), false, true );
 	 }
+	 elseif(is_page('single-adventures')){
+		 wp_enqueue_script('red_comments', get_template_directory_uri() . '/js/main.js', array('jquery'), false, true );
+	 }
 	 else{
 		wp_enqueue_script('red_comments', get_template_directory_uri() . '/js/main2.js', array('jquery'), false, true );
 	 }

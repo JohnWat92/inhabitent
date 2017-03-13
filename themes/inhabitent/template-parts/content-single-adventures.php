@@ -16,12 +16,11 @@
 		<?php the_title( '<h1 class="entry-title">', '</h1>' ); ?>
 
 		<div class="entry-meta">
-			<?php red_starter_posted_on(); ?> / <?php red_starter_comment_count(); ?> / <?php red_starter_posted_by(); ?>
+			<?php red_starter_posted_by(); ?>
 		</div><!-- .entry-meta -->
 	</header><!-- .entry-header -->
 
 	<div class="entry-content">
-		<!--<?php echo CFS()->get('price');?>-->
 		<?php the_content(); ?>
 		<?php
 			wp_link_pages( array(
@@ -29,15 +28,15 @@
 				'after'  => '</div>',
 			) );
 		?>
-		
+		<div class = "socialMediaButtons">
+				<p><a href=""><i class = "fa fa-facebook"></i> like </a>
+				<p><a href=""><i class = "fa fa-twitter"></i> tweet </a>
+				<p><a href=""><i class = "fa fa-pinterest"></i> pin </a>
+		</div>
 	</div><!-- .entry-content -->
 
 	<footer class="entry-footer">
 		<?php red_starter_entry_footer(); ?>
 	</footer> <!-- .entry-footer -->
-	<div class = "socialMediaButtons">
-				<p><a href=""><i class = "fa fa-facebook"></i> like </a>
-				<p><a href=""><i class = "fa fa-twitter"></i> tweet </a>
-				<p><a href=""><i class = "fa fa-pinterest"></i> pin </a>
-			</div>
+	
 </article><!-- #post-## -->
