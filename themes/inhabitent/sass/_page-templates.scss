@@ -415,6 +415,10 @@
 //Single page adventures 
 .adventures-template-default.single{
 	.entry-header{
+		img{
+			height:100vh;
+			object-fit: cover;
+		}
 		.entry-title,.entry-meta{
 			margin:0 auto;
 			width:700px;

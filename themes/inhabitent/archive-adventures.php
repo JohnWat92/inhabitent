@@ -30,8 +30,9 @@ get_header(); ?>
                 <?php while ( have_posts() ) : the_post(); ?>
                     <li class="latestAdventures">
                         <div class="archive-adventure-wrapper">
-                            <a href="<?php the_permalink();?>" ><?php the_post_thumbnail(); ?>
-                            </a>
+                            <!--<a href="<?php the_permalink();?>" ><?php the_post_thumbnail(); ?>
+                            </a>-->
+                            <?php the_post_thumbnail(); ?>
                             <div class="adventure-info">
                                 <div class = "adventureTitle">
                                 <p><a href="<?php the_permalink(); ?>" title="<?php the_title_attribute(); ?>">

@@ -39,7 +39,7 @@
 }
 }
 //Home Navigation Bar Styling
-.reverse-header .navContainer{
+.home .reverse-header .navContainer, .page-template-about .reverse-header .navContainer, .adventures-template-default .reverse-header .navContainer{
         background:rgba(255,255,255,0);
         border-bottom:solid 0px lightgrey;
         position:absolute;

@@ -1361,28 +1361,28 @@ h3 {
   .navContainer .fa-search, .navContainer .fa-search {
     color: #248A8B; }
 
-.reverse-header .navContainer {
+.home .reverse-header .navContainer, .page-template-about .reverse-header .navContainer, .adventures-template-default .reverse-header .navContainer {
   background: rgba(255, 255, 255, 0);
   border-bottom: solid 0px lightgrey;
   position: absolute; }
-  .reverse-header .navContainer .navWrap {
+  .home .reverse-header .navContainer .navWrap, .page-template-about .reverse-header .navContainer .navWrap, .adventures-template-default .reverse-header .navContainer .navWrap {
     width: 1120px; }
-    .reverse-header .navContainer .navWrap .tentLogo {
+    .home .reverse-header .navContainer .navWrap .tentLogo, .page-template-about .reverse-header .navContainer .navWrap .tentLogo, .adventures-template-default .reverse-header .navContainer .navWrap .tentLogo {
       background-image: url(../../images/logos/inhabitent-logo-tent-white.svg); }
-    .reverse-header .navContainer .navWrap #site-navigation {
+    .home .reverse-header .navContainer .navWrap #site-navigation, .page-template-about .reverse-header .navContainer .navWrap #site-navigation, .adventures-template-default .reverse-header .navContainer .navWrap #site-navigation {
       height: 50px; }
-    .reverse-header .navContainer .navWrap #primary-menu li {
+    .home .reverse-header .navContainer .navWrap #primary-menu li, .page-template-about .reverse-header .navContainer .navWrap #primary-menu li, .adventures-template-default .reverse-header .navContainer .navWrap #primary-menu li {
       padding: 1rem; }
-      .reverse-header .navContainer .navWrap #primary-menu li a {
+      .home .reverse-header .navContainer .navWrap #primary-menu li a, .page-template-about .reverse-header .navContainer .navWrap #primary-menu li a, .adventures-template-default .reverse-header .navContainer .navWrap #primary-menu li a {
         color: White;
         text-transform: uppercase;
         text-shadow: 1px 1px 2px #323232; }
-        .reverse-header .navContainer .navWrap #primary-menu li a:hover {
+        .home .reverse-header .navContainer .navWrap #primary-menu li a:hover, .page-template-about .reverse-header .navContainer .navWrap #primary-menu li a:hover, .adventures-template-default .reverse-header .navContainer .navWrap #primary-menu li a:hover {
           color: #f0e4d1; }
-    .reverse-header .navContainer .navWrap .fa-search {
+    .home .reverse-header .navContainer .navWrap .fa-search, .page-template-about .reverse-header .navContainer .navWrap .fa-search, .adventures-template-default .reverse-header .navContainer .navWrap .fa-search {
       color: white;
       text-shadow: 1px 1px 2px #323232; }
-      .reverse-header .navContainer .navWrap .fa-search:hover {
+      .home .reverse-header .navContainer .navWrap .fa-search:hover, .page-template-about .reverse-header .navContainer .navWrap .fa-search:hover, .adventures-template-default .reverse-header .navContainer .navWrap .fa-search:hover {
         color: #f0e4d1; }
 
 .site-content {
@@ -1823,6 +1823,10 @@ object {
     width: 100%; }
   .comment-form #url {
     width: 100%; }
+
+.adventures-template-default.single .entry-header img {
+  height: 100vh;
+  object-fit: cover; }
 
 .adventures-template-default.single .entry-header .entry-title, .adventures-template-default.single .entry-header .entry-meta {
   margin: 0 auto;
