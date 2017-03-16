@@ -1,21 +1,9 @@
-# RED Starter
+![Inhabitent Homepage](./images/screenshots/homepage.png)
 
-A WordPress starter theme for RED Academy students, forked from Underscores.
+**Inhabitent**
+In this project we recreated a theme for a wordpress website that contains multiple pages for a outdoors camping retailer who loves everything that has to do with camping. It includes a shopping page that shows a grid of items to be purchased that can be seperated into four categories for the user to choose from. It also includes called about and find us that shows what the company is about with a very vast hero image that covers the screen.
 
-## Installation
-
-### 1. Download me (don't clone me!)
-
-Then add me to your `wp-content` directory.
-
-### 2. Rename the `redstarter` directory
-
-Make sure that the theme directory name is project appropriate!
-
-### 3. Install the dev dependencies
-
-Next you'll need to run `npm install` **inside your theme directory** next to install the node modules you'll need for Gulp, etc.
-
-### 4. Update the proxy in `gulpfile.js`
-
-Lastly, be sure to update your `gulpfile.js` with the appropriate URL for the Browsersync proxy (so change `inhabitent.dev` to the appropriate localhost URL).
+![Inhabitent Journal](./images/screenshots/inhabitent-journal.png)
+**Technologies Used**
+In this project the most convenient technology I used was gulp to format my scss to build my css. I also used wordpress as the content manager for my project which was quite convenient for building multiple pages that have similar layouts because styling can be applied to more than one page. The template hierarchy is what I had trouble with the most, but downloading a page checker from wordpress' plugins helped very much to help me locate what page I am using. It was very convenient how you could download plugins for wordpress and the extra tools you can add on are extremely useful.
+![Inhabitent Single Journal](./images/screenshots/inhabitent-journal.png)
